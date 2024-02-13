@@ -1,0 +1,6 @@
+C:\Users\mad_f\source\repos\PrevisaoDoTempo\PrevisaoDoTempo\obj\Debug\PrevisaoDoTempo.csproj.AssemblyReference.cache
+C:\Users\mad_f\source\repos\PrevisaoDoTempo\PrevisaoDoTempo\obj\Debug\PrevisaoDoTempo.Form1.resources
+C:\Users\mad_f\source\repos\PrevisaoDoTempo\PrevisaoDoTempo\obj\Debug\PrevisaoDoTempo.Properties.Resources.resources
+C:\Users\mad_f\source\repos\PrevisaoDoTempo\PrevisaoDoTempo\obj\Debug\PrevisaoDoTempo.csproj.GenerateResource.cache
+C:\Users\mad_f\source\repos\PrevisaoDoTempo\PrevisaoDoTempo\obj\Debug\PrevisaoDoTempo.csproj.CoreCompileInputs.cache
+C:\Users\mad_f\source\repos\PrevisaoDoTempo\PrevisaoDoTempo\obj\Debug\PrevisaoDoTempo.FormPrevisaoDoTempo.resources
