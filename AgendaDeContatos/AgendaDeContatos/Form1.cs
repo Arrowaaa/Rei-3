@@ -31,6 +31,19 @@ namespace AgendaDeContatos
 
         private void BtnExcluir_Click_1(object sender, EventArgs e)
         {// Lógica para excluir o contato selecionado no ListBox
+        // Verifica se os arquivos correspondentes ao contato existem
+   if (File.Exists("nome.txt") && File.Exists("numero.txt"))
+   {
+       // Exclui os arquivos correspondentes ao contato
+       File.Delete("nome.txt");
+       File.Delete("numero.txt");
+
+       MessageBox.Show("Contato excluído com sucesso!");
+   }
+   else
+   {
+       MessageBox.Show("Nenhum contato encontrado.");
+   }
         }
 
         private void BtnAdicionar_Click(object sender, EventArgs e)
