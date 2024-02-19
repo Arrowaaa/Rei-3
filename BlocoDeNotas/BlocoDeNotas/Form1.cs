@@ -50,5 +50,9 @@ namespace BlocoDeNotas
             else
                 MessageBox.Show("Nenhuma nota encontrada.");
         }
+        private void fecharToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+                Application.Exit();
+        }
     }
 }
