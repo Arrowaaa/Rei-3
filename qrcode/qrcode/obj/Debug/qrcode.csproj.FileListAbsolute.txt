@@ -1,0 +1,12 @@
+C:\projetos UC\qrcode\qrcode\bin\Debug\qrcode.exe.config
+C:\projetos UC\qrcode\qrcode\bin\Debug\qrcode.exe
+C:\projetos UC\qrcode\qrcode\bin\Debug\qrcode.pdb
+C:\projetos UC\qrcode\qrcode\obj\Debug\qrcode.csproj.AssemblyReference.cache
+C:\projetos UC\qrcode\qrcode\obj\Debug\qrcode.Form1.resources
+C:\projetos UC\qrcode\qrcode\obj\Debug\qrcode.Properties.Resources.resources
+C:\projetos UC\qrcode\qrcode\obj\Debug\qrcode.csproj.GenerateResource.cache
+C:\projetos UC\qrcode\qrcode\obj\Debug\qrcode.csproj.CoreCompileInputs.cache
+C:\projetos UC\qrcode\qrcode\obj\Debug\qrcode.exe
+C:\projetos UC\qrcode\qrcode\obj\Debug\qrcode.pdb
+C:\projetos UC\qrcode\qrcode\bin\Debug\QRCoder.dll
+C:\projetos UC\qrcode\qrcode\obj\Debug\qrcode.csproj.CopyComplete
