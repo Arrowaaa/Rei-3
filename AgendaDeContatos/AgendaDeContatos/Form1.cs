@@ -17,41 +17,88 @@ namespace AgendaDeContatos
         {
             InitializeComponent();
         }
+        private void SalvarECarregarContatos()
+        {
+            using (StreamWriter writerNomes = new StreamWriter("nomes.txt"))
+            using (StreamWriter writerNumeros = new StreamWriter("numeros.txt"))
+            {
+                foreach (ListViewItem item in listViewContatos.Items)
+                {
+                    writerNomes.WriteLine(item.Text);
+                    writerNumeros.WriteLine(item.SubItems[1].Text);
+                }
+            }
+
+            if (File.Exists("nomes.txt"))
+            {
+                string[] nomes = File.ReadAllLines("nomes.txt");
+                string[] numeros = File.ReadAllLines("numeros.txt");
+
+                for (int i = 0; i < nomes.Length; i++)
+                {
+                    ListViewItem item = new ListViewItem(nomes[i]);
+                    item.SubItems.Add(numeros[i]);
+                    listViewContatos.Items.Add(item);
+                }
+            }
+        }
+
 
         private void BtnEditar_Click_1(object sender, EventArgs e)
-        {// Lógica para editar o contato selecionado no ListBox
-            if (File.Exists("nome.txt"))
+        {// Editar o contato selecionado no ListBox
+            if (listViewContatos.SelectedItems.Count > 0)
             {
-                textBoxNome.Text = File.ReadAllText("nome.txt");
-                textBoxNumero.Text = File.ReadAllText("numero.txt");
+                ListViewItem selectedItem = (ListViewItem)listViewContatos.SelectedItems[0];
+                selectedItem.Text = textBoxNome.Text;
+                selectedItem.SubItems[1].Text = textBoxNumero.Text;
             }
-            else
-                MessageBox.Show("Nenhuma Contato encontrada.");
         }
 
         private void BtnExcluir_Click_1(object sender, EventArgs e)
-        {// Lógica para excluir o contato selecionado no ListBox
-        // Verifica se os arquivos correspondentes ao contato existem
-   if (File.Exists("nome.txt") && File.Exists("numero.txt"))
-   {
-       // Exclui os arquivos correspondentes ao contato
-       File.Delete("nome.txt");
-       File.Delete("numero.txt");
-
-       MessageBox.Show("Contato excluído com sucesso!");
-   }
-   else
-   {
-       MessageBox.Show("Nenhum contato encontrado.");
-   }
+        {
+            // Excluir o contato selecionado no ListView
+            if (listViewContatos.SelectedItems.Count > 0)
+            {
+                ListViewItem selectedItem = (ListViewItem)listViewContatos.SelectedItems[0];
+                listViewContatos.Items.Remove(selectedItem); // Remove o item selecionado
+            }
+        }
+        private void listViewContatos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (listViewContatos.SelectedItems.Count > 0)
+            {
+                ListViewItem selectedItem = (ListViewItem)listViewContatos.SelectedItems[0];
+                textBoxNome.Text = selectedItem.Text;
+                textBoxNumero.Text = selectedItem.SubItems[1].Text;
+            }
         }
 
-        private void BtnAdicionar_Click(object sender, EventArgs e)
+        private void btnSalvarECarregar_Click(object sender, EventArgs e)
         {
-            // Lógica para adicionar um novo contato à agenda
-            File.WriteAllText("nome.txt", textBoxNome.Text);
-            File.WriteAllText("numero.txt", textBoxNumero.Text);
-            MessageBox.Show("Contato salva com sucesso!");
+            SalvarECarregarContatos();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            SalvarECarregarContatos();
+        }
+
+        private void BtnAdicionar_Click_1(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(textBoxNome.Text) && !string.IsNullOrEmpty(textBoxNumero.Text))
+            {
+                ListViewItem item = new ListViewItem(textBoxNome.Text);
+                item.SubItems.Add(textBoxNumero.Text);
+                listViewContatos.Items.Add(item);
+
+
+                textBoxNome.Text = "";
+                textBoxNumero.Text = "";
+            }
+            else
+            {
+                MessageBox.Show("Por favor, preencha o nome e o número do contato.");
+            }
         }
     }
 }

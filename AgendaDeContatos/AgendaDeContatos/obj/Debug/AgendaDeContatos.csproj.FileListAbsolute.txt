@@ -8,3 +8,13 @@ C:\Users\mad_f\source\repos\AgendaDeContatos\AgendaDeContatos\obj\Debug\AgendaDe
 C:\Users\mad_f\source\repos\AgendaDeContatos\AgendaDeContatos\obj\Debug\AgendaDeContatos.csproj.CoreCompileInputs.cache
 C:\Users\mad_f\source\repos\AgendaDeContatos\AgendaDeContatos\obj\Debug\AgendaDeContatos.exe
 C:\Users\mad_f\source\repos\AgendaDeContatos\AgendaDeContatos\obj\Debug\AgendaDeContatos.pdb
+C:\Users\edilson.csilva10\source\repos\Rei-3\AgendaDeContatos\AgendaDeContatos\bin\Debug\AgendaDeContatos.exe.config
+C:\Users\edilson.csilva10\source\repos\Rei-3\AgendaDeContatos\AgendaDeContatos\bin\Debug\AgendaDeContatos.exe
+C:\Users\edilson.csilva10\source\repos\Rei-3\AgendaDeContatos\AgendaDeContatos\bin\Debug\AgendaDeContatos.pdb
+C:\Users\edilson.csilva10\source\repos\Rei-3\AgendaDeContatos\AgendaDeContatos\obj\Debug\AgendaDeContatos.csproj.AssemblyReference.cache
+C:\Users\edilson.csilva10\source\repos\Rei-3\AgendaDeContatos\AgendaDeContatos\obj\Debug\AgendaDeContatos.Form1.resources
+C:\Users\edilson.csilva10\source\repos\Rei-3\AgendaDeContatos\AgendaDeContatos\obj\Debug\AgendaDeContatos.Properties.Resources.resources
+C:\Users\edilson.csilva10\source\repos\Rei-3\AgendaDeContatos\AgendaDeContatos\obj\Debug\AgendaDeContatos.csproj.GenerateResource.cache
+C:\Users\edilson.csilva10\source\repos\Rei-3\AgendaDeContatos\AgendaDeContatos\obj\Debug\AgendaDeContatos.csproj.CoreCompileInputs.cache
+C:\Users\edilson.csilva10\source\repos\Rei-3\AgendaDeContatos\AgendaDeContatos\obj\Debug\AgendaDeContatos.exe
+C:\Users\edilson.csilva10\source\repos\Rei-3\AgendaDeContatos\AgendaDeContatos\obj\Debug\AgendaDeContatos.pdb
