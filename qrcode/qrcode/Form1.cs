@@ -58,9 +58,5 @@ namespace qrcode
             }
         }
 
-        private void TXT1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
