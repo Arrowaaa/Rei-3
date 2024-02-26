@@ -32,11 +32,6 @@ namespace BlocoDeNotas
                 MessageBox.Show("Nenhuma nota encontrada.");
         }
 
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-
         private void salvarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             File.WriteAllText("nota.txt", textBoxNota.Text);
@@ -53,6 +48,16 @@ namespace BlocoDeNotas
         private void fecharToolStripMenuItem_Click(object sender, EventArgs e)
         {
                 Application.Exit();
+        }
+
+        private void fecharToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            DialogResult sair = MessageBox.Show("Deseja Sair ?", "Sair!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (sair == DialogResult.Yes)
+            {
+                Application.Exit(); //função para fecha o aplicativo
+            }
         }
     }
 }

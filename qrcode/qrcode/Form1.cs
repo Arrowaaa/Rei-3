@@ -29,7 +29,7 @@ namespace qrcode
 
             if(string .IsNullOrEmpty(dados) )
             {
-                MessageBox.Show ("seguinte meu paceiro deu erro, insere algo ae nmrl", "erro", MessageBoxButtons.OK, MessageBoxIcon.Error ); 
+                MessageBox.Show ("Preencha os Campos", "Erro!", MessageBoxButtons.OK, MessageBoxIcon.Error ); 
                 return;
             }
 
@@ -50,7 +50,7 @@ namespace qrcode
 
         private void BTNSAIR_Click(object sender, EventArgs e)
         {
-            DialogResult sair = MessageBox.Show("OLOKO quer sair paulin?", "sair", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult sair = MessageBox.Show("Deseja Sair ?", "Sair!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if(sair == DialogResult.Yes)
             {

@@ -31,14 +31,13 @@
             this.BtnSalvar = new System.Windows.Forms.Button();
             this.BtnCarregar = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.salvarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.abrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.novoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salvarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salvarComoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.txtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.txtdocxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fecharToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.novoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.textBoxNota = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -74,16 +73,7 @@
             this.menuStrip1.Size = new System.Drawing.Size(278, 24);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
-            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
-            // 
-            // salvarToolStripMenuItem
-            // 
-            this.salvarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.salvarComoToolStripMenuItem1});
-            this.salvarToolStripMenuItem.Name = "salvarToolStripMenuItem";
-            this.salvarToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
-            this.salvarToolStripMenuItem.Text = "Salvar";
-            this.salvarToolStripMenuItem.Click += new System.EventHandler(this.salvarToolStripMenuItem_Click);
+
             // 
             // abrirToolStripMenuItem
             // 
@@ -94,46 +84,48 @@
             this.abrirToolStripMenuItem.Text = "Abrir";
             this.abrirToolStripMenuItem.Click += new System.EventHandler(this.abrirToolStripMenuItem_Click);
             // 
+            // novoToolStripMenuItem
+            // 
+            this.novoToolStripMenuItem.Name = "novoToolStripMenuItem";
+            this.novoToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.novoToolStripMenuItem.Text = "Novo";
+            // 
+            // salvarToolStripMenuItem
+            // 
+            this.salvarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.salvarComoToolStripMenuItem1});
+            this.salvarToolStripMenuItem.Name = "salvarToolStripMenuItem";
+            this.salvarToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
+            this.salvarToolStripMenuItem.Text = "Salvar";
+            this.salvarToolStripMenuItem.Click += new System.EventHandler(this.salvarToolStripMenuItem_Click);
+            // 
             // salvarComoToolStripMenuItem1
             // 
             this.salvarComoToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.txtToolStripMenuItem,
             this.txtdocxToolStripMenuItem});
             this.salvarComoToolStripMenuItem1.Name = "salvarComoToolStripMenuItem1";
-            this.salvarComoToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.salvarComoToolStripMenuItem1.Size = new System.Drawing.Size(141, 22);
             this.salvarComoToolStripMenuItem1.Text = "Salvar Como";
             // 
             // txtToolStripMenuItem
             // 
             this.txtToolStripMenuItem.Name = "txtToolStripMenuItem";
-            this.txtToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.txtToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.txtToolStripMenuItem.Text = "txt";
             // 
             // txtdocxToolStripMenuItem
             // 
             this.txtdocxToolStripMenuItem.Name = "txtdocxToolStripMenuItem";
-            this.txtdocxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.txtdocxToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.txtdocxToolStripMenuItem.Text = "docx";
             // 
             // fecharToolStripMenuItem
             // 
-            this.fecharToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.sairToolStripMenuItem});
             this.fecharToolStripMenuItem.Name = "fecharToolStripMenuItem";
             this.fecharToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.fecharToolStripMenuItem.Text = "Fechar";
-            // 
-            // novoToolStripMenuItem
-            // 
-            this.novoToolStripMenuItem.Name = "novoToolStripMenuItem";
-            this.novoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.novoToolStripMenuItem.Text = "Novo";
-            // 
-            // sairToolStripMenuItem
-            // 
-            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.sairToolStripMenuItem.Text = "Sair";
+            this.fecharToolStripMenuItem.Click += new System.EventHandler(this.fecharToolStripMenuItem_Click_1);
             // 
             // textBoxNota
             // 
@@ -148,11 +140,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(278, 410);
+            this.ControlBox = false;
             this.Controls.Add(this.textBoxNota);
             this.Controls.Add(this.BtnCarregar);
             this.Controls.Add(this.BtnSalvar);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
             this.menuStrip1.ResumeLayout(false);
@@ -174,7 +169,6 @@
         private System.Windows.Forms.ToolStripMenuItem txtToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem txtdocxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fecharToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.TextBox textBoxNota;
     }
 }
