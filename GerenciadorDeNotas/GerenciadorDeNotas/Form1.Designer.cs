@@ -66,6 +66,7 @@
             this.BtnEditar.TabIndex = 1;
             this.BtnEditar.Text = "Editar";
             this.BtnEditar.UseVisualStyleBackColor = false;
+            this.BtnEditar.Click += new System.EventHandler(this.BtnEditar_Click);
             // 
             // BtnExcluir
             // 
@@ -86,6 +87,7 @@
             this.listBoxNotas.Name = "listBoxNotas";
             this.listBoxNotas.Size = new System.Drawing.Size(491, 134);
             this.listBoxNotas.TabIndex = 3;
+            this.listBoxNotas.SelectedIndexChanged += new System.EventHandler(this.listBoxNotas_SelectedIndexChanged);
             // 
             // richTextBoxConteudo
             // 
