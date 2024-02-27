@@ -1,0 +1,13 @@
+C:\Users\edilson.csilva10\source\repos\PrevisaoDoTempo\PrevisaoDoTempo\obj\Debug\PrevisaoDoTempo.csproj.AssemblyReference.cache
+C:\Users\edilson.csilva10\source\repos\PrevisaoDoTempo\PrevisaoDoTempo\obj\Debug\PrevisaoDoTempo.Properties.Resources.resources
+C:\Users\edilson.csilva10\source\repos\PrevisaoDoTempo\PrevisaoDoTempo\obj\Debug\PrevisaoDoTempo.csproj.GenerateResource.cache
+C:\Users\edilson.csilva10\source\repos\PrevisaoDoTempo\PrevisaoDoTempo\obj\Debug\PrevisaoDoTempo.csproj.CoreCompileInputs.cache
+C:\Users\edilson.csilva10\source\repos\PrevisaoDoTempo\PrevisaoDoTempo\bin\Debug\PrevisaoDoTempo.exe.config
+C:\Users\edilson.csilva10\source\repos\PrevisaoDoTempo\PrevisaoDoTempo\bin\Debug\PrevisaoDoTempo.exe
+C:\Users\edilson.csilva10\source\repos\PrevisaoDoTempo\PrevisaoDoTempo\bin\Debug\PrevisaoDoTempo.pdb
+C:\Users\edilson.csilva10\source\repos\PrevisaoDoTempo\PrevisaoDoTempo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edilson.csilva10\source\repos\PrevisaoDoTempo\PrevisaoDoTempo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edilson.csilva10\source\repos\PrevisaoDoTempo\PrevisaoDoTempo\obj\Debug\PrevisaoDoTempo.Form1.resources
+C:\Users\edilson.csilva10\source\repos\PrevisaoDoTempo\PrevisaoDoTempo\obj\Debug\PrevisaoDoTempo.csproj.CopyComplete
+C:\Users\edilson.csilva10\source\repos\PrevisaoDoTempo\PrevisaoDoTempo\obj\Debug\PrevisaoDoTempo.exe
+C:\Users\edilson.csilva10\source\repos\PrevisaoDoTempo\PrevisaoDoTempo\obj\Debug\PrevisaoDoTempo.pdb
