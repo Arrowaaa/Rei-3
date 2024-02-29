@@ -1,13 +1,14 @@
 ﻿using System;
+using MySql.Data.MySqlClient;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace Gerenciador_de_Tarefas
 {
@@ -79,7 +80,6 @@ namespace Gerenciador_de_Tarefas
                             string descricao = leitor.GetString(2);
                             string vencimento = leitor.GetString(3);
 
-                            //MessageBox.Show($"{id}\n{tarefa}\n{descricao}\n{vencimento}");
 
                             dgvTarefas.Rows.Add(id, tarefa, descricao, vencimento);
 

@@ -1,0 +1,5 @@
+C:\Users\mad_f\Source\Repos\Rei-3\Gerenciador-de-Tarefas\obj\Debug\Gerenciador-de-Tarefas.csproj.AssemblyReference.cache
+C:\Users\mad_f\Source\Repos\Rei-3\Gerenciador-de-Tarefas\obj\Debug\Gerenciador_de_Tarefas.Form1.resources
+C:\Users\mad_f\Source\Repos\Rei-3\Gerenciador-de-Tarefas\obj\Debug\Gerenciador_de_Tarefas.Properties.Resources.resources
+C:\Users\mad_f\Source\Repos\Rei-3\Gerenciador-de-Tarefas\obj\Debug\Gerenciador-de-Tarefas.csproj.GenerateResource.cache
+C:\Users\mad_f\Source\Repos\Rei-3\Gerenciador-de-Tarefas\obj\Debug\Gerenciador-de-Tarefas.csproj.CoreCompileInputs.cache

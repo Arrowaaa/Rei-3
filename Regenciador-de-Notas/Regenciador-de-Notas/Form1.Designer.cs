@@ -39,6 +39,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txbNomeArquivo = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnAtualizar
@@ -98,7 +99,6 @@
             this.cbxArquivos.Name = "cbxArquivos";
             this.cbxArquivos.Size = new System.Drawing.Size(119, 29);
             this.cbxArquivos.TabIndex = 20;
-            this.cbxArquivos.Text = "Ler nota";
             this.cbxArquivos.SelectedIndexChanged += new System.EventHandler(this.cbxArquivos_SelectedIndexChanged);
             // 
             // lblAlert
@@ -167,11 +167,22 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.label1.Location = new System.Drawing.Point(355, 3);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(70, 21);
+            this.label1.TabIndex = 26;
+            this.label1.Text = "Ler nota";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(585, 299);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnAtualizar);
             this.Controls.Add(this.btnExcluir);
@@ -207,6 +218,7 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.TextBox txbNomeArquivo;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
     }
 }
 
