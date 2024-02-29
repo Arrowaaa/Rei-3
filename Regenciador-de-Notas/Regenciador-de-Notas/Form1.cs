@@ -20,6 +20,9 @@ namespace Regenciador_de_Notas
             txbConteudo.Clear();
             txbNomeArquivo.Clear();
 
+            Pasta = PastaDosArquivos; // Inicialize a variável Pasta aqui
+            cbxArquivos.Items.Clear();
+
             CarregarNotas();
         }
         int timer = 2000;
@@ -35,14 +38,18 @@ namespace Regenciador_de_Notas
 
         }
 
-        string caminhoPasta = "";
-        string caminhoArquivo = "";
+        string Pasta = "";
+        string Arquivo = "";
         private void CarregarNotas()
         {
-;
-            cbxArquivos.Items.Clear();
 
-            DirectoryInfo dir = new DirectoryInfo(caminhoPasta);
+            // Verifica se o diretório existe, caso contrário, cria-o
+            if (!Directory.Exists(Pasta))
+            {
+                Directory.CreateDirectory(Pasta);
+            }
+
+            DirectoryInfo dir = new DirectoryInfo(Pasta);
             FileInfo[] arquivos = dir.GetFiles("*.*");
             foreach (FileInfo fi in arquivos)
             {
@@ -54,12 +61,12 @@ namespace Regenciador_de_Notas
         private void btnSalvarNota_Click(object sender, EventArgs e)
         {
             string nomeDoArquivo = txbNomeArquivo.Text + ".txt";
-            caminhoArquivo = caminhoPasta + nomeDoArquivo;
+            Arquivo = Pasta + nomeDoArquivo;
 
-            if (!File.Exists(caminhoArquivo))
+            if (!File.Exists(Arquivo))
             {
 
-                using (StreamWriter sw = File.CreateText(caminhoArquivo))
+                using (StreamWriter sw = File.CreateText(Arquivo))
                 {
 
                     sw.WriteLine(txbConteudo.Text);
@@ -88,9 +95,9 @@ namespace Regenciador_de_Notas
         private void cbxArquivos_SelectedIndexChanged(object sender, EventArgs e)
         {
             string nomeDoArquivo = cbxArquivos.Text;
-            caminhoArquivo = caminhoPasta + nomeDoArquivo;
+            Arquivo = Pasta + nomeDoArquivo;
 
-            using (StreamReader sr = new StreamReader(caminhoArquivo))
+            using (StreamReader sr = new StreamReader(Arquivo))
             {
 
                 txbConteudoNota.Text = sr.ReadToEnd();
@@ -98,25 +105,16 @@ namespace Regenciador_de_Notas
             }
 
         }
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-
-            lblAlert.Text = "";
-
-            CarregarNotas();
-
-
-        }
 
         private void btnAtualizar_Click(object sender, EventArgs e)
         {
             string arquivoAtualizar = cbxArquivos.Text;
-            caminhoArquivo = caminhoPasta + arquivoAtualizar;
+            Arquivo = Pasta + arquivoAtualizar;
 
-            if (File.Exists(caminhoArquivo))
+            if (File.Exists(Arquivo))
             {
 
-                using (StreamWriter sw = File.CreateText(caminhoArquivo))
+                using (StreamWriter sw = File.CreateText(Arquivo))
                 {
 
                     sw.WriteLine(txbConteudoNota.Text);
@@ -131,12 +129,12 @@ namespace Regenciador_de_Notas
         private void btnExcluir_Click(object sender, EventArgs e)
         {
             string arquivoAtualizar = cbxArquivos.Text;
-            string caminhoArquivo = caminhoPasta + arquivoAtualizar;
+            string Arquivo = Pasta + arquivoAtualizar;
 
-            if (File.Exists(caminhoArquivo))
+            if (File.Exists(Arquivo))
             {
 
-                File.Delete(caminhoArquivo);
+                File.Delete(Arquivo);
 
                 MessageBox.Show("Nota excluida com sucesso!");
 
@@ -151,7 +149,7 @@ namespace Regenciador_de_Notas
             timer1.Interval = timer;
             timer1.Enabled = true;
 
-            caminhoPasta = PastaDosArquivos;
+            Pasta = PastaDosArquivos;
 
 
             CarregarNotas();

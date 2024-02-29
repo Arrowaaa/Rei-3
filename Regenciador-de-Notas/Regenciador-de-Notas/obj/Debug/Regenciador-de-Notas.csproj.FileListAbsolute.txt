@@ -8,3 +8,13 @@ C:\Users\mad_f\source\repos\Regenciador-de-Notas\Regenciador-de-Notas\obj\Debug\
 C:\Users\mad_f\source\repos\Regenciador-de-Notas\Regenciador-de-Notas\obj\Debug\Regenciador-de-Notas.csproj.CoreCompileInputs.cache
 C:\Users\mad_f\source\repos\Regenciador-de-Notas\Regenciador-de-Notas\obj\Debug\Regenciador-de-Notas.exe
 C:\Users\mad_f\source\repos\Regenciador-de-Notas\Regenciador-de-Notas\obj\Debug\Regenciador-de-Notas.pdb
+C:\Users\mad_f\Source\Repos\Rei-3\Regenciador-de-Notas\Regenciador-de-Notas\bin\Debug\Regenciador-de-Notas.exe.config
+C:\Users\mad_f\Source\Repos\Rei-3\Regenciador-de-Notas\Regenciador-de-Notas\bin\Debug\Regenciador-de-Notas.exe
+C:\Users\mad_f\Source\Repos\Rei-3\Regenciador-de-Notas\Regenciador-de-Notas\bin\Debug\Regenciador-de-Notas.pdb
+C:\Users\mad_f\Source\Repos\Rei-3\Regenciador-de-Notas\Regenciador-de-Notas\obj\Debug\Regenciador-de-Notas.csproj.AssemblyReference.cache
+C:\Users\mad_f\Source\Repos\Rei-3\Regenciador-de-Notas\Regenciador-de-Notas\obj\Debug\Regenciador_de_Notas.Form1.resources
+C:\Users\mad_f\Source\Repos\Rei-3\Regenciador-de-Notas\Regenciador-de-Notas\obj\Debug\Regenciador_de_Notas.Properties.Resources.resources
+C:\Users\mad_f\Source\Repos\Rei-3\Regenciador-de-Notas\Regenciador-de-Notas\obj\Debug\Regenciador-de-Notas.csproj.GenerateResource.cache
+C:\Users\mad_f\Source\Repos\Rei-3\Regenciador-de-Notas\Regenciador-de-Notas\obj\Debug\Regenciador-de-Notas.csproj.CoreCompileInputs.cache
+C:\Users\mad_f\Source\Repos\Rei-3\Regenciador-de-Notas\Regenciador-de-Notas\obj\Debug\Regenciador-de-Notas.exe
+C:\Users\mad_f\Source\Repos\Rei-3\Regenciador-de-Notas\Regenciador-de-Notas\obj\Debug\Regenciador-de-Notas.pdb
