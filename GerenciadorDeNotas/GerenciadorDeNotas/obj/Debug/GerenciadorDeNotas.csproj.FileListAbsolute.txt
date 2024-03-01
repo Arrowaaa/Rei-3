@@ -18,3 +18,13 @@ C:\Users\edilson.csilva10\Source\Repos\Rei-3\GerenciadorDeNotas\GerenciadorDeNot
 C:\Users\edilson.csilva10\Source\Repos\Rei-3\GerenciadorDeNotas\GerenciadorDeNotas\obj\Debug\GerenciadorDeNotas.csproj.CoreCompileInputs.cache
 C:\Users\edilson.csilva10\Source\Repos\Rei-3\GerenciadorDeNotas\GerenciadorDeNotas\obj\Debug\GerenciadorDeNotas.exe
 C:\Users\edilson.csilva10\Source\Repos\Rei-3\GerenciadorDeNotas\GerenciadorDeNotas\obj\Debug\GerenciadorDeNotas.pdb
+C:\Users\mad_f\source\repos\Rei-3\GerenciadorDeNotas\GerenciadorDeNotas\bin\Debug\GerenciadorDeNotas.exe.config
+C:\Users\mad_f\source\repos\Rei-3\GerenciadorDeNotas\GerenciadorDeNotas\bin\Debug\GerenciadorDeNotas.exe
+C:\Users\mad_f\source\repos\Rei-3\GerenciadorDeNotas\GerenciadorDeNotas\bin\Debug\GerenciadorDeNotas.pdb
+C:\Users\mad_f\source\repos\Rei-3\GerenciadorDeNotas\GerenciadorDeNotas\obj\Debug\GerenciadorDeNotas.csproj.AssemblyReference.cache
+C:\Users\mad_f\source\repos\Rei-3\GerenciadorDeNotas\GerenciadorDeNotas\obj\Debug\GerenciadorDeNotas.Form1.resources
+C:\Users\mad_f\source\repos\Rei-3\GerenciadorDeNotas\GerenciadorDeNotas\obj\Debug\GerenciadorDeNotas.Properties.Resources.resources
+C:\Users\mad_f\source\repos\Rei-3\GerenciadorDeNotas\GerenciadorDeNotas\obj\Debug\GerenciadorDeNotas.csproj.GenerateResource.cache
+C:\Users\mad_f\source\repos\Rei-3\GerenciadorDeNotas\GerenciadorDeNotas\obj\Debug\GerenciadorDeNotas.csproj.CoreCompileInputs.cache
+C:\Users\mad_f\source\repos\Rei-3\GerenciadorDeNotas\GerenciadorDeNotas\obj\Debug\GerenciadorDeNotas.exe
+C:\Users\mad_f\source\repos\Rei-3\GerenciadorDeNotas\GerenciadorDeNotas\obj\Debug\GerenciadorDeNotas.pdb

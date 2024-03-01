@@ -22,20 +22,54 @@ namespace GerenciadorDeNotas
         public Form1()
         {
             InitializeComponent();
-            NotaEditada = nota;
+
+            textBoxTituloEdicao = new TextBox();
         }
 
         private void BtnAdicionar_Click(object sender, EventArgs e)
         {
             // Lógica para adicionar uma nova nota ao ListBox
+            // Nota novaNota = new Nota();
+            // novaNota.Titulo = "Nova Nota"; // Defina o título inicial
+            // novaNota.Conteudo = richTextBoxConteudo.Text; // Armazene o conteúdo do RichTextBox
+            // notas.Add(novaNota);
+            // listBoxNotas.Items.Add(novaNota.Titulo);
+            // Lógica para adicionar uma nova nota ao ListBox
+            // Lógica para adicionar uma nova nota ao ListBox
+            // Lógica para adicionar uma nova nota ao ListBox
             Nota novaNota = new Nota();
-            novaNota.Titulo = "Nova Nota"; // Defina o título inicial
-            novaNota.Conteudo = richTextBoxConteudo.Text; // Armazene o conteúdo do RichTextBox
+
+            // Divide o texto do richTextBoxConteudo em palavras
+            string[] palavras = richTextBoxConteudo.Text.Split(new char[] { ' ', '\t', '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
+
+            // Adiciona a primeira palavra ao título da nova nota
+            string titulo = palavras.Length > 0 ? palavras[0] : "Sem Título";
+
+            // Adiciona o conteúdo completo como conteúdo da nota
+            novaNota.Conteudo = richTextBoxConteudo.Text;
+
+            // Adiciona a nova nota à lista
             notas.Add(novaNota);
-            listBoxNotas.Items.Add(novaNota.Titulo);
+
+            // Cria um novo item do ListBox com o título e a nota completa
+            ListBoxItem itemListBox = new ListBoxItem();
+            itemListBox.Titulo = titulo;
+            itemListBox.NotaCompleta = novaNota;
+
+            // Adiciona o item ao listBoxNotas
+            listBoxNotas.Items.Add(itemListBox);
+        }
+        public class ListBoxItem
+        {
+            public string Titulo { get; set; }
+            public Nota NotaCompleta { get; set; }
+
+            public override string ToString()
+            {
+                return Titulo;
+            }
         }
 
-   
 
         private void BtnExcluir_Click(object sender, EventArgs e)
         {
@@ -62,14 +96,20 @@ namespace GerenciadorDeNotas
                     listBoxNotas.Items.Add(""); // Adicionar uma linha em branco para separar as notas
                 }
             }*/
-            // Lógica para pesquisar notas com base em palavras-chave
             string palavraChave = textBoxPesquisa.Text.ToLower();
-            listBoxNotas.Items.Clear();
-            foreach (Nota nota in notas)
+
+            // Limpa a lista de seleção
+            listBoxNotas.ClearSelected();
+
+            // Itera sobre cada item na lista de notas
+            foreach (ListBoxItem item in listBoxNotas.Items)
             {
-                if (nota.Titulo.ToLower().Contains(palavraChave) || nota.Conteudo.ToLower().Contains(palavraChave))
+                // Verifica se o título ou o conteúdo contêm a palavra-chave (ignorando maiúsculas e minúsculas)
+                if (item.Titulo.ToLower().Contains(palavraChave) || item.NotaCompleta.Conteudo.ToLower().Contains(palavraChave))
                 {
-                    listBoxNotas.Items.Add(nota.Titulo);
+                    // Seleciona o item que contém a palavra-chave
+                    listBoxNotas.SelectedItem = item;
+                    break; // Sai do loop após encontrar o primeiro item correspondente
                 }
             }
         }
@@ -109,9 +149,23 @@ namespace GerenciadorDeNotas
 
         private void BtnEditar_Click(object sender, EventArgs e)
         {
-            // Verifica se uma nota está selecionada
-          
+            // Verifica se um item está selecionado
+            if (listBoxNotas.SelectedItem != null)
+            {
+                // Acessa o item do ListBox
+                ListBoxItem itemSelecionado = (ListBoxItem)listBoxNotas.SelectedItem;
+
+                // Acessa a nota completa associada ao item selecionado
+                Nota notaSelecionada = itemSelecionado.NotaCompleta;
+
+                // Habilita a edição no richTextBoxConteudo
+                richTextBoxConteudo.ReadOnly = false;
+                richTextBoxConteudo.Focus(); // Coloca o foco no richTextBoxConteudo
+            }
         }
+
+
+        private TextBox textBoxTituloEdicao;
 
         private void listBoxNotas_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -119,6 +173,45 @@ namespace GerenciadorDeNotas
             if (listBoxNotas.SelectedIndex != -1)
             {
                 richTextBoxConteudo.Text = notas[listBoxNotas.SelectedIndex].Conteudo;
+            }
+        }
+
+        private void BtnSalvar_Click(object sender, EventArgs e)
+        {
+            // Verifica se um item está selecionado
+            if (listBoxNotas.SelectedItem != null)
+            {
+                // Acessa o item do ListBox
+                ListBoxItem itemSelecionado = (ListBoxItem)listBoxNotas.SelectedItem;
+
+                // Acessa a nota completa associada ao item selecionado
+                Nota notaSelecionada = itemSelecionado.NotaCompleta;
+
+                // Salva o conteúdo editado no richTextBoxConteudo na nota selecionada
+                notaSelecionada.Conteudo = richTextBoxConteudo.Text;
+
+                // Atualiza o título da nota tanto no objeto Nota quanto no item do ListBox
+                notaSelecionada.Titulo = textBoxTituloEdicao.Text;
+                itemSelecionado.Titulo = textBoxTituloEdicao.Text;
+
+                // Reconstrói completamente o conteúdo do ListBox
+                listBoxNotas.Items.Clear();
+                foreach (Nota nota in notas)
+                {
+                    ListBoxItem novoItem = new ListBoxItem();
+                    novoItem.Titulo = nota.Titulo;
+                    novoItem.NotaCompleta = nota;
+                    listBoxNotas.Items.Add(novoItem);
+                }
+
+                // Seleciona o primeiro item do ListBox após reconstruir o conteúdo
+                if (listBoxNotas.Items.Count > 0)
+                {
+                    listBoxNotas.SelectedIndex = 0;
+                }
+
+                // Desabilita a edição no richTextBoxConteudo
+                richTextBoxConteudo.ReadOnly = true;
             }
         }
     }

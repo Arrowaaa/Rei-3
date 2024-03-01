@@ -42,6 +42,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.fontDialog1 = new System.Windows.Forms.FontDialog();
+            this.BtnSalvar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnAdicionar
@@ -72,7 +73,7 @@
             // 
             this.BtnExcluir.BackColor = System.Drawing.Color.Red;
             this.BtnExcluir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnExcluir.Location = new System.Drawing.Point(258, 341);
+            this.BtnExcluir.Location = new System.Drawing.Point(433, 341);
             this.BtnExcluir.Name = "BtnExcluir";
             this.BtnExcluir.Size = new System.Drawing.Size(89, 32);
             this.BtnExcluir.TabIndex = 2;
@@ -182,11 +183,24 @@
             this.label3.TabIndex = 13;
             this.label3.Text = "Este controle será usado para inserir palavras-chave para pesquisa.";
             // 
+            // BtnSalvar
+            // 
+            this.BtnSalvar.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.BtnSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSalvar.Location = new System.Drawing.Point(246, 341);
+            this.BtnSalvar.Name = "BtnSalvar";
+            this.BtnSalvar.Size = new System.Drawing.Size(181, 32);
+            this.BtnSalvar.TabIndex = 14;
+            this.BtnSalvar.Text = "Salva Editação";
+            this.BtnSalvar.UseVisualStyleBackColor = false;
+            this.BtnSalvar.Click += new System.EventHandler(this.BtnSalvar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(940, 423);
+            this.Controls.Add(this.BtnSalvar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -223,6 +237,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.FontDialog fontDialog1;
+        private System.Windows.Forms.Button BtnSalvar;
     }
 }
 
