@@ -194,21 +194,8 @@ namespace GerenciadorDeNotas
                 notaSelecionada.Titulo = textBoxTituloEdicao.Text;
                 itemSelecionado.Titulo = textBoxTituloEdicao.Text;
 
-                // Reconstrói completamente o conteúdo do ListBox
-                listBoxNotas.Items.Clear();
-                foreach (Nota nota in notas)
-                {
-                    ListBoxItem novoItem = new ListBoxItem();
-                    novoItem.Titulo = nota.Titulo;
-                    novoItem.NotaCompleta = nota;
-                    listBoxNotas.Items.Add(novoItem);
-                }
-
-                // Seleciona o primeiro item do ListBox após reconstruir o conteúdo
-                if (listBoxNotas.Items.Count > 0)
-                {
-                    listBoxNotas.SelectedIndex = 0;
-                }
+                // Atualiza o texto do item selecionado no ListBox para refletir as alterações
+                listBoxNotas.Items[listBoxNotas.SelectedIndex] = itemSelecionado;
 
                 // Desabilita a edição no richTextBoxConteudo
                 richTextBoxConteudo.ReadOnly = true;
