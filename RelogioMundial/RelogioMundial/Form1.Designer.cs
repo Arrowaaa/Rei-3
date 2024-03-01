@@ -30,368 +30,263 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.lblBaker = new System.Windows.Forms.Label();
-            this.lblMiller = new System.Windows.Forms.Label();
-            this.lblPaopao = new System.Windows.Forms.Label();
-            this.lblSuva = new System.Windows.Forms.Label();
-            this.lblMagadan = new System.Windows.Forms.Label();
-            this.lblAcra = new System.Windows.Forms.Label();
-            this.lblLosAngeles = new System.Windows.Forms.Label();
-            this.lblDawson = new System.Windows.Forms.Label();
-            this.lblLima = new System.Windows.Forms.Label();
-            this.lblNuuk = new System.Windows.Forms.Label();
-            this.lblItto = new System.Windows.Forms.Label();
-            this.lblSydney = new System.Windows.Forms.Label();
-            this.lblTokyo = new System.Windows.Forms.Label();
-            this.lblTaipe = new System.Windows.Forms.Label();
-            this.lblBangkok = new System.Windows.Forms.Label();
-            this.lblAstana = new System.Windows.Forms.Label();
-            this.lblMale = new System.Windows.Forms.Label();
-            this.lblMascate = new System.Windows.Forms.Label();
-            this.lblIstambul = new System.Windows.Forms.Label();
-            this.lblCabo = new System.Windows.Forms.Label();
-            this.lblManaus = new System.Windows.Forms.Label();
-            this.lblAnchorage = new System.Windows.Forms.Label();
+            this.lblIceland = new System.Windows.Forms.Label();
+            this.lblYakutsk = new System.Windows.Forms.Label();
+            this.lblUs = new System.Windows.Forms.Label();
+            this.lblNewZealand = new System.Windows.Forms.Label();
+            this.lblCanada = new System.Windows.Forms.Label();
+            this.lblUk = new System.Windows.Forms.Label();
+            this.lblNunavut = new System.Windows.Forms.Label();
+            this.lblGreenland = new System.Windows.Forms.Label();
+            this.lblBrazil = new System.Windows.Forms.Label();
+            this.lblSweden = new System.Windows.Forms.Label();
+            this.lblSvalbard = new System.Windows.Forms.Label();
+            this.lblArgentina = new System.Windows.Forms.Label();
+            this.lblAustralia = new System.Windows.Forms.Label();
+            this.lblMalaysia = new System.Windows.Forms.Label();
+            this.lblKopi = new System.Windows.Forms.Label();
             this.lblMexico = new System.Windows.Forms.Label();
-            this.lblParis = new System.Windows.Forms.Label();
-            this.lblSaoPaulo = new System.Windows.Forms.Label();
+            this.lblVietnam = new System.Windows.Forms.Label();
+            this.lblChina = new System.Windows.Forms.Label();
+            this.lblMongolia = new System.Windows.Forms.Label();
+            this.lblMadagascar = new System.Windows.Forms.Label();
+            this.lblTunisia = new System.Windows.Forms.Label();
+            this.lblEllesmere = new System.Windows.Forms.Label();
+            this.lblRussia = new System.Windows.Forms.Label();
+            this.lblKazakhstan = new System.Windows.Forms.Label();
+            this.lblDemocraticRepublic = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label10 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblNorway = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // lblBaker
+            // lblIceland
             // 
-            this.lblBaker.AutoSize = true;
-            this.lblBaker.BackColor = System.Drawing.Color.Transparent;
-            this.lblBaker.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblBaker.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblBaker.Image = ((System.Drawing.Image)(resources.GetObject("lblBaker.Image")));
-            this.lblBaker.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblBaker.Location = new System.Drawing.Point(243, 125);
-            this.lblBaker.Name = "lblBaker";
-            this.lblBaker.Size = new System.Drawing.Size(65, 13);
-            this.lblBaker.TabIndex = 57;
-            this.lblBaker.Text = "      Islândia";
-            this.lblBaker.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblIceland.AutoSize = true;
+            this.lblIceland.BackColor = System.Drawing.Color.Transparent;
+            this.lblIceland.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblIceland.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblIceland.Image = ((System.Drawing.Image)(resources.GetObject("lblIceland.Image")));
+            this.lblIceland.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblIceland.Location = new System.Drawing.Point(243, 125);
+            this.lblIceland.Name = "lblIceland";
+            this.lblIceland.Size = new System.Drawing.Size(65, 13);
+            this.lblIceland.TabIndex = 57;
+            this.lblIceland.Text = "      Islândia";
+            this.lblIceland.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblMiller
+            // lblYakutsk
             // 
-            this.lblMiller.AutoSize = true;
-            this.lblMiller.BackColor = System.Drawing.Color.Transparent;
-            this.lblMiller.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblMiller.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblMiller.Image = ((System.Drawing.Image)(resources.GetObject("lblMiller.Image")));
-            this.lblMiller.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblMiller.Location = new System.Drawing.Point(477, 148);
-            this.lblMiller.Name = "lblMiller";
-            this.lblMiller.Size = new System.Drawing.Size(62, 13);
-            this.lblMiller.TabIndex = 56;
-            this.lblMiller.Text = "     Yakutsk";
-            this.lblMiller.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblYakutsk.AutoSize = true;
+            this.lblYakutsk.BackColor = System.Drawing.Color.Transparent;
+            this.lblYakutsk.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblYakutsk.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblYakutsk.Image = ((System.Drawing.Image)(resources.GetObject("lblYakutsk.Image")));
+            this.lblYakutsk.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblYakutsk.Location = new System.Drawing.Point(477, 148);
+            this.lblYakutsk.Name = "lblYakutsk";
+            this.lblYakutsk.Size = new System.Drawing.Size(62, 13);
+            this.lblYakutsk.TabIndex = 56;
+            this.lblYakutsk.Text = "     Yakutsk";
+            this.lblYakutsk.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblPaopao
+            // lblUs
             // 
-            this.lblPaopao.AutoSize = true;
-            this.lblPaopao.BackColor = System.Drawing.Color.Transparent;
-            this.lblPaopao.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblPaopao.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblPaopao.Image = ((System.Drawing.Image)(resources.GetObject("lblPaopao.Image")));
-            this.lblPaopao.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblPaopao.Location = new System.Drawing.Point(107, 212);
-            this.lblPaopao.Name = "lblPaopao";
-            this.lblPaopao.Size = new System.Drawing.Size(166, 13);
-            this.lblPaopao.TabIndex = 55;
-            this.lblPaopao.Text = "      Estados Unidos da América";
-            this.lblPaopao.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblUs.AutoSize = true;
+            this.lblUs.BackColor = System.Drawing.Color.Transparent;
+            this.lblUs.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblUs.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblUs.Image = ((System.Drawing.Image)(resources.GetObject("lblUs.Image")));
+            this.lblUs.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUs.Location = new System.Drawing.Point(107, 212);
+            this.lblUs.Name = "lblUs";
+            this.lblUs.Size = new System.Drawing.Size(166, 13);
+            this.lblUs.TabIndex = 55;
+            this.lblUs.Text = "      Estados Unidos da América";
+            this.lblUs.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblSuva
+            // lblNewZealand
             // 
-            this.lblSuva.AutoSize = true;
-            this.lblSuva.BackColor = System.Drawing.Color.Transparent;
-            this.lblSuva.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblSuva.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblSuva.Image = ((System.Drawing.Image)(resources.GetObject("lblSuva.Image")));
-            this.lblSuva.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblSuva.Location = new System.Drawing.Point(512, 349);
-            this.lblSuva.Name = "lblSuva";
-            this.lblSuva.Size = new System.Drawing.Size(101, 13);
-            this.lblSuva.TabIndex = 54;
-            this.lblSuva.Text = "      Nova Zelândia";
-            this.lblSuva.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblNewZealand.AutoSize = true;
+            this.lblNewZealand.BackColor = System.Drawing.Color.Transparent;
+            this.lblNewZealand.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblNewZealand.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblNewZealand.Image = ((System.Drawing.Image)(resources.GetObject("lblNewZealand.Image")));
+            this.lblNewZealand.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblNewZealand.Location = new System.Drawing.Point(550, 349);
+            this.lblNewZealand.Name = "lblNewZealand";
+            this.lblNewZealand.Size = new System.Drawing.Size(101, 13);
+            this.lblNewZealand.TabIndex = 54;
+            this.lblNewZealand.Text = "      Nova Zelândia";
+            this.lblNewZealand.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblMagadan
+            // lblCanada
             // 
-            this.lblMagadan.AutoSize = true;
-            this.lblMagadan.BackColor = System.Drawing.Color.Transparent;
-            this.lblMagadan.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblMagadan.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblMagadan.Image = ((System.Drawing.Image)(resources.GetObject("lblMagadan.Image")));
-            this.lblMagadan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblMagadan.Location = new System.Drawing.Point(82, 162);
-            this.lblMagadan.Name = "lblMagadan";
-            this.lblMagadan.Size = new System.Drawing.Size(64, 13);
-            this.lblMagadan.TabIndex = 53;
-            this.lblMagadan.Text = "      Canadá";
-            this.lblMagadan.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblCanada.AutoSize = true;
+            this.lblCanada.BackColor = System.Drawing.Color.Transparent;
+            this.lblCanada.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblCanada.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblCanada.Image = ((System.Drawing.Image)(resources.GetObject("lblCanada.Image")));
+            this.lblCanada.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblCanada.Location = new System.Drawing.Point(82, 162);
+            this.lblCanada.Name = "lblCanada";
+            this.lblCanada.Size = new System.Drawing.Size(64, 13);
+            this.lblCanada.TabIndex = 53;
+            this.lblCanada.Text = "      Canadá";
+            this.lblCanada.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblAcra
+            // lblUk
             // 
-            this.lblAcra.AutoSize = true;
-            this.lblAcra.BackColor = System.Drawing.Color.Transparent;
-            this.lblAcra.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblAcra.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAcra.Image = ((System.Drawing.Image)(resources.GetObject("lblAcra.Image")));
-            this.lblAcra.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblAcra.Location = new System.Drawing.Point(291, 183);
-            this.lblAcra.Name = "lblAcra";
-            this.lblAcra.Size = new System.Drawing.Size(90, 13);
-            this.lblAcra.TabIndex = 52;
-            this.lblAcra.Text = "      Reino Unido";
-            this.lblAcra.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblUk.AutoSize = true;
+            this.lblUk.BackColor = System.Drawing.Color.Transparent;
+            this.lblUk.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblUk.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblUk.Image = ((System.Drawing.Image)(resources.GetObject("lblUk.Image")));
+            this.lblUk.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUk.Location = new System.Drawing.Point(291, 183);
+            this.lblUk.Name = "lblUk";
+            this.lblUk.Size = new System.Drawing.Size(90, 13);
+            this.lblUk.TabIndex = 52;
+            this.lblUk.Text = "      Reino Unido";
+            this.lblUk.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblLosAngeles
+            // lblNunavut
             // 
-            this.lblLosAngeles.AutoSize = true;
-            this.lblLosAngeles.BackColor = System.Drawing.Color.Transparent;
-            this.lblLosAngeles.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblLosAngeles.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblLosAngeles.Image = ((System.Drawing.Image)(resources.GetObject("lblLosAngeles.Image")));
-            this.lblLosAngeles.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblLosAngeles.Location = new System.Drawing.Point(154, 110);
-            this.lblLosAngeles.Name = "lblLosAngeles";
-            this.lblLosAngeles.Size = new System.Drawing.Size(71, 13);
-            this.lblLosAngeles.TabIndex = 51;
-            this.lblLosAngeles.Text = "      Nunavut";
-            this.lblLosAngeles.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblNunavut.AutoSize = true;
+            this.lblNunavut.BackColor = System.Drawing.Color.Transparent;
+            this.lblNunavut.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblNunavut.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblNunavut.Image = ((System.Drawing.Image)(resources.GetObject("lblNunavut.Image")));
+            this.lblNunavut.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblNunavut.Location = new System.Drawing.Point(154, 110);
+            this.lblNunavut.Name = "lblNunavut";
+            this.lblNunavut.Size = new System.Drawing.Size(71, 13);
+            this.lblNunavut.TabIndex = 51;
+            this.lblNunavut.Text = "      Nunavut";
+            this.lblNunavut.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblDawson
+            // lblGreenland
             // 
-            this.lblDawson.AutoSize = true;
-            this.lblDawson.BackColor = System.Drawing.Color.Transparent;
-            this.lblDawson.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblDawson.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblDawson.Image = ((System.Drawing.Image)(resources.GetObject("lblDawson.Image")));
-            this.lblDawson.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblDawson.Location = new System.Drawing.Point(201, 84);
-            this.lblDawson.Name = "lblDawson";
-            this.lblDawson.Size = new System.Drawing.Size(89, 13);
-            this.lblDawson.TabIndex = 50;
-            this.lblDawson.Text = "      Groenlândia";
-            this.lblDawson.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblGreenland.AutoSize = true;
+            this.lblGreenland.BackColor = System.Drawing.Color.Transparent;
+            this.lblGreenland.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblGreenland.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenland.Image = ((System.Drawing.Image)(resources.GetObject("lblGreenland.Image")));
+            this.lblGreenland.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblGreenland.Location = new System.Drawing.Point(201, 84);
+            this.lblGreenland.Name = "lblGreenland";
+            this.lblGreenland.Size = new System.Drawing.Size(89, 13);
+            this.lblGreenland.TabIndex = 50;
+            this.lblGreenland.Text = "      Groenlândia";
+            this.lblGreenland.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblLima
+            // lblBrazil
             // 
-            this.lblLima.AutoSize = true;
-            this.lblLima.BackColor = System.Drawing.Color.Transparent;
-            this.lblLima.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblLima.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblLima.Image = ((System.Drawing.Image)(resources.GetObject("lblLima.Image")));
-            this.lblLima.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblLima.Location = new System.Drawing.Point(185, 286);
-            this.lblLima.Name = "lblLima";
-            this.lblLima.Size = new System.Drawing.Size(53, 13);
-            this.lblLima.TabIndex = 49;
-            this.lblLima.Text = "      Brasil";
-            this.lblLima.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblBrazil.AutoSize = true;
+            this.lblBrazil.BackColor = System.Drawing.Color.Transparent;
+            this.lblBrazil.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblBrazil.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblBrazil.Image = ((System.Drawing.Image)(resources.GetObject("lblBrazil.Image")));
+            this.lblBrazil.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblBrazil.Location = new System.Drawing.Point(185, 286);
+            this.lblBrazil.Name = "lblBrazil";
+            this.lblBrazil.Size = new System.Drawing.Size(53, 13);
+            this.lblBrazil.TabIndex = 49;
+            this.lblBrazil.Text = "      Brasil";
+            this.lblBrazil.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblNuuk
+            // lblSweden
             // 
-            this.lblNuuk.AutoSize = true;
-            this.lblNuuk.BackColor = System.Drawing.Color.Transparent;
-            this.lblNuuk.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblNuuk.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblNuuk.Image = ((System.Drawing.Image)(resources.GetObject("lblNuuk.Image")));
-            this.lblNuuk.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblNuuk.Location = new System.Drawing.Point(317, 135);
-            this.lblNuuk.Name = "lblNuuk";
-            this.lblNuuk.Size = new System.Drawing.Size(55, 13);
-            this.lblNuuk.TabIndex = 48;
-            this.lblNuuk.Text = "     Suécia";
-            this.lblNuuk.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblSweden.AutoSize = true;
+            this.lblSweden.BackColor = System.Drawing.Color.Transparent;
+            this.lblSweden.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblSweden.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblSweden.Image = ((System.Drawing.Image)(resources.GetObject("lblSweden.Image")));
+            this.lblSweden.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblSweden.Location = new System.Drawing.Point(317, 135);
+            this.lblSweden.Name = "lblSweden";
+            this.lblSweden.Size = new System.Drawing.Size(55, 13);
+            this.lblSweden.TabIndex = 48;
+            this.lblSweden.Text = "     Suécia";
+            this.lblSweden.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblItto
+            // lblSvalbard
             // 
-            this.lblItto.AutoSize = true;
-            this.lblItto.BackColor = System.Drawing.Color.Transparent;
-            this.lblItto.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblItto.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblItto.Image = ((System.Drawing.Image)(resources.GetObject("lblItto.Image")));
-            this.lblItto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblItto.Location = new System.Drawing.Point(304, 66);
-            this.lblItto.Name = "lblItto";
-            this.lblItto.Size = new System.Drawing.Size(70, 13);
-            this.lblItto.TabIndex = 47;
-            this.lblItto.Text = "      Svalbard";
-            this.lblItto.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblSvalbard.AutoSize = true;
+            this.lblSvalbard.BackColor = System.Drawing.Color.Transparent;
+            this.lblSvalbard.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblSvalbard.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblSvalbard.Image = ((System.Drawing.Image)(resources.GetObject("lblSvalbard.Image")));
+            this.lblSvalbard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblSvalbard.Location = new System.Drawing.Point(304, 66);
+            this.lblSvalbard.Name = "lblSvalbard";
+            this.lblSvalbard.Size = new System.Drawing.Size(70, 13);
+            this.lblSvalbard.TabIndex = 47;
+            this.lblSvalbard.Text = "      Svalbard";
+            this.lblSvalbard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblSydney
+            // lblArgentina
             // 
-            this.lblSydney.AutoSize = true;
-            this.lblSydney.BackColor = System.Drawing.Color.Transparent;
-            this.lblSydney.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblSydney.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblSydney.Image = ((System.Drawing.Image)(resources.GetObject("lblSydney.Image")));
-            this.lblSydney.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblSydney.Location = new System.Drawing.Point(173, 349);
-            this.lblSydney.Name = "lblSydney";
-            this.lblSydney.Size = new System.Drawing.Size(74, 13);
-            this.lblSydney.TabIndex = 46;
-            this.lblSydney.Text = "     Argentina";
-            this.lblSydney.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblArgentina.AutoSize = true;
+            this.lblArgentina.BackColor = System.Drawing.Color.Transparent;
+            this.lblArgentina.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblArgentina.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblArgentina.Image = ((System.Drawing.Image)(resources.GetObject("lblArgentina.Image")));
+            this.lblArgentina.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArgentina.Location = new System.Drawing.Point(173, 349);
+            this.lblArgentina.Name = "lblArgentina";
+            this.lblArgentina.Size = new System.Drawing.Size(74, 13);
+            this.lblArgentina.TabIndex = 46;
+            this.lblArgentina.Text = "     Argentina";
+            this.lblArgentina.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblTokyo
+            // lblAustralia
             // 
-            this.lblTokyo.AutoSize = true;
-            this.lblTokyo.BackColor = System.Drawing.Color.Transparent;
-            this.lblTokyo.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblTokyo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTokyo.Image = ((System.Drawing.Image)(resources.GetObject("lblTokyo.Image")));
-            this.lblTokyo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTokyo.Location = new System.Drawing.Point(497, 318);
-            this.lblTokyo.Name = "lblTokyo";
-            this.lblTokyo.Size = new System.Drawing.Size(68, 13);
-            this.lblTokyo.TabIndex = 45;
-            this.lblTokyo.Text = "     Austrália";
-            this.lblTokyo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAustralia.AutoSize = true;
+            this.lblAustralia.BackColor = System.Drawing.Color.Transparent;
+            this.lblAustralia.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblAustralia.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAustralia.Image = ((System.Drawing.Image)(resources.GetObject("lblAustralia.Image")));
+            this.lblAustralia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblAustralia.Location = new System.Drawing.Point(497, 318);
+            this.lblAustralia.Name = "lblAustralia";
+            this.lblAustralia.Size = new System.Drawing.Size(68, 13);
+            this.lblAustralia.TabIndex = 45;
+            this.lblAustralia.Text = "     Austrália";
+            this.lblAustralia.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblTaipe
+            // lblMalaysia
             // 
-            this.lblTaipe.AutoSize = true;
-            this.lblTaipe.BackColor = System.Drawing.Color.Transparent;
-            this.lblTaipe.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblTaipe.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTaipe.Image = ((System.Drawing.Image)(resources.GetObject("lblTaipe.Image")));
-            this.lblTaipe.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTaipe.Location = new System.Drawing.Point(460, 272);
-            this.lblTaipe.Name = "lblTaipe";
-            this.lblTaipe.Size = new System.Drawing.Size(62, 13);
-            this.lblTaipe.TabIndex = 44;
-            this.lblTaipe.Text = "     Malásia";
-            this.lblTaipe.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblMalaysia.AutoSize = true;
+            this.lblMalaysia.BackColor = System.Drawing.Color.Transparent;
+            this.lblMalaysia.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblMalaysia.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblMalaysia.Image = ((System.Drawing.Image)(resources.GetObject("lblMalaysia.Image")));
+            this.lblMalaysia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblMalaysia.Location = new System.Drawing.Point(460, 272);
+            this.lblMalaysia.Name = "lblMalaysia";
+            this.lblMalaysia.Size = new System.Drawing.Size(62, 13);
+            this.lblMalaysia.TabIndex = 44;
+            this.lblMalaysia.Text = "     Malásia";
+            this.lblMalaysia.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblBangkok
+            // lblKopi
             // 
-            this.lblBangkok.AutoSize = true;
-            this.lblBangkok.BackColor = System.Drawing.Color.Transparent;
-            this.lblBangkok.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblBangkok.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblBangkok.Image = ((System.Drawing.Image)(resources.GetObject("lblBangkok.Image")));
-            this.lblBangkok.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblBangkok.Location = new System.Drawing.Point(512, 110);
-            this.lblBangkok.Name = "lblBangkok";
-            this.lblBangkok.Size = new System.Drawing.Size(93, 13);
-            this.lblBangkok.TabIndex = 43;
-            this.lblBangkok.Text = "     Ugolnye Kopi";
-            this.lblBangkok.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblAstana
-            // 
-            this.lblAstana.AutoSize = true;
-            this.lblAstana.BackColor = System.Drawing.Color.Transparent;
-            this.lblAstana.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblAstana.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAstana.Image = ((System.Drawing.Image)(resources.GetObject("lblAstana.Image")));
-            this.lblAstana.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblAstana.Location = new System.Drawing.Point(117, 239);
-            this.lblAstana.Name = "lblAstana";
-            this.lblAstana.Size = new System.Drawing.Size(63, 13);
-            this.lblAstana.TabIndex = 42;
-            this.lblAstana.Text = "      Mexico";
-            this.lblAstana.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblMale
-            // 
-            this.lblMale.AutoSize = true;
-            this.lblMale.BackColor = System.Drawing.Color.Transparent;
-            this.lblMale.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblMale.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblMale.Image = ((System.Drawing.Image)(resources.GetObject("lblMale.Image")));
-            this.lblMale.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblMale.Location = new System.Drawing.Point(447, 250);
-            this.lblMale.Name = "lblMale";
-            this.lblMale.Size = new System.Drawing.Size(58, 13);
-            this.lblMale.TabIndex = 41;
-            this.lblMale.Text = "      Vietnã";
-            this.lblMale.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblMascate
-            // 
-            this.lblMascate.AutoSize = true;
-            this.lblMascate.BackColor = System.Drawing.Color.Transparent;
-            this.lblMascate.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblMascate.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblMascate.Image = ((System.Drawing.Image)(resources.GetObject("lblMascate.Image")));
-            this.lblMascate.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblMascate.Location = new System.Drawing.Point(434, 212);
-            this.lblMascate.Name = "lblMascate";
-            this.lblMascate.Size = new System.Drawing.Size(61, 13);
-            this.lblMascate.TabIndex = 40;
-            this.lblMascate.Text = "        China";
-            this.lblMascate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblIstambul
-            // 
-            this.lblIstambul.AutoSize = true;
-            this.lblIstambul.BackColor = System.Drawing.Color.Transparent;
-            this.lblIstambul.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblIstambul.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblIstambul.Image = ((System.Drawing.Image)(resources.GetObject("lblIstambul.Image")));
-            this.lblIstambul.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblIstambul.Location = new System.Drawing.Point(447, 196);
-            this.lblIstambul.Name = "lblIstambul";
-            this.lblIstambul.Size = new System.Drawing.Size(82, 13);
-            this.lblIstambul.TabIndex = 39;
-            this.lblIstambul.Text = "        Mongólia";
-            this.lblIstambul.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblCabo
-            // 
-            this.lblCabo.AutoSize = true;
-            this.lblCabo.BackColor = System.Drawing.Color.Transparent;
-            this.lblCabo.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblCabo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblCabo.Image = ((System.Drawing.Image)(resources.GetObject("lblCabo.Image")));
-            this.lblCabo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblCabo.Location = new System.Drawing.Point(360, 298);
-            this.lblCabo.Name = "lblCabo";
-            this.lblCabo.Size = new System.Drawing.Size(88, 13);
-            this.lblCabo.TabIndex = 38;
-            this.lblCabo.Text = "      Madagascar";
-            this.lblCabo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblManaus
-            // 
-            this.lblManaus.AutoSize = true;
-            this.lblManaus.BackColor = System.Drawing.Color.Transparent;
-            this.lblManaus.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblManaus.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblManaus.Image = ((System.Drawing.Image)(resources.GetObject("lblManaus.Image")));
-            this.lblManaus.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblManaus.Location = new System.Drawing.Point(282, 239);
-            this.lblManaus.Name = "lblManaus";
-            this.lblManaus.Size = new System.Drawing.Size(61, 13);
-            this.lblManaus.TabIndex = 37;
-            this.lblManaus.Text = "      Tunísia";
-            this.lblManaus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblAnchorage
-            // 
-            this.lblAnchorage.AutoSize = true;
-            this.lblAnchorage.BackColor = System.Drawing.Color.Transparent;
-            this.lblAnchorage.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAnchorage.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAnchorage.Image = ((System.Drawing.Image)(resources.GetObject("lblAnchorage.Image")));
-            this.lblAnchorage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblAnchorage.Location = new System.Drawing.Point(142, 45);
-            this.lblAnchorage.Name = "lblAnchorage";
-            this.lblAnchorage.Size = new System.Drawing.Size(96, 13);
-            this.lblAnchorage.TabIndex = 36;
-            this.lblAnchorage.Text = "      Ilha Ellesmere";
-            this.lblAnchorage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblKopi.AutoSize = true;
+            this.lblKopi.BackColor = System.Drawing.Color.Transparent;
+            this.lblKopi.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblKopi.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblKopi.Image = ((System.Drawing.Image)(resources.GetObject("lblKopi.Image")));
+            this.lblKopi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblKopi.Location = new System.Drawing.Point(512, 110);
+            this.lblKopi.Name = "lblKopi";
+            this.lblKopi.Size = new System.Drawing.Size(93, 13);
+            this.lblKopi.TabIndex = 43;
+            this.lblKopi.Text = "     Ugolnye Kopi";
+            this.lblKopi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblMexico
             // 
@@ -401,42 +296,147 @@
             this.lblMexico.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblMexico.Image = ((System.Drawing.Image)(resources.GetObject("lblMexico.Image")));
             this.lblMexico.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblMexico.Location = new System.Drawing.Point(390, 162);
+            this.lblMexico.Location = new System.Drawing.Point(117, 239);
             this.lblMexico.Name = "lblMexico";
-            this.lblMexico.Size = new System.Drawing.Size(58, 13);
-            this.lblMexico.TabIndex = 35;
-            this.lblMexico.Text = "      Rússia";
+            this.lblMexico.Size = new System.Drawing.Size(63, 13);
+            this.lblMexico.TabIndex = 42;
+            this.lblMexico.Text = "      Mexico";
             this.lblMexico.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblParis
+            // lblVietnam
             // 
-            this.lblParis.AutoSize = true;
-            this.lblParis.BackColor = System.Drawing.Color.Transparent;
-            this.lblParis.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblParis.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblParis.Image = ((System.Drawing.Image)(resources.GetObject("lblParis.Image")));
-            this.lblParis.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblParis.Location = new System.Drawing.Point(386, 183);
-            this.lblParis.Name = "lblParis";
-            this.lblParis.Size = new System.Drawing.Size(91, 13);
-            this.lblParis.TabIndex = 34;
-            this.lblParis.Text = "       Cazaquistão";
-            this.lblParis.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblVietnam.AutoSize = true;
+            this.lblVietnam.BackColor = System.Drawing.Color.Transparent;
+            this.lblVietnam.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblVietnam.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblVietnam.Image = ((System.Drawing.Image)(resources.GetObject("lblVietnam.Image")));
+            this.lblVietnam.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblVietnam.Location = new System.Drawing.Point(447, 250);
+            this.lblVietnam.Name = "lblVietnam";
+            this.lblVietnam.Size = new System.Drawing.Size(58, 13);
+            this.lblVietnam.TabIndex = 41;
+            this.lblVietnam.Text = "      Vietnã";
+            this.lblVietnam.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblSaoPaulo
+            // lblChina
             // 
-            this.lblSaoPaulo.AutoSize = true;
-            this.lblSaoPaulo.BackColor = System.Drawing.Color.Transparent;
-            this.lblSaoPaulo.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblSaoPaulo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblSaoPaulo.Image = ((System.Drawing.Image)(resources.GetObject("lblSaoPaulo.Image")));
-            this.lblSaoPaulo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblSaoPaulo.Location = new System.Drawing.Point(304, 272);
-            this.lblSaoPaulo.Name = "lblSaoPaulo";
-            this.lblSaoPaulo.Size = new System.Drawing.Size(140, 13);
-            this.lblSaoPaulo.TabIndex = 33;
-            this.lblSaoPaulo.Text = "     República Democrática";
-            this.lblSaoPaulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblChina.AutoSize = true;
+            this.lblChina.BackColor = System.Drawing.Color.Transparent;
+            this.lblChina.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblChina.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblChina.Image = ((System.Drawing.Image)(resources.GetObject("lblChina.Image")));
+            this.lblChina.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblChina.Location = new System.Drawing.Point(434, 212);
+            this.lblChina.Name = "lblChina";
+            this.lblChina.Size = new System.Drawing.Size(61, 13);
+            this.lblChina.TabIndex = 40;
+            this.lblChina.Text = "        China";
+            this.lblChina.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblMongolia
+            // 
+            this.lblMongolia.AutoSize = true;
+            this.lblMongolia.BackColor = System.Drawing.Color.Transparent;
+            this.lblMongolia.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblMongolia.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblMongolia.Image = ((System.Drawing.Image)(resources.GetObject("lblMongolia.Image")));
+            this.lblMongolia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblMongolia.Location = new System.Drawing.Point(447, 196);
+            this.lblMongolia.Name = "lblMongolia";
+            this.lblMongolia.Size = new System.Drawing.Size(82, 13);
+            this.lblMongolia.TabIndex = 39;
+            this.lblMongolia.Text = "        Mongólia";
+            this.lblMongolia.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblMadagascar
+            // 
+            this.lblMadagascar.AutoSize = true;
+            this.lblMadagascar.BackColor = System.Drawing.Color.Transparent;
+            this.lblMadagascar.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblMadagascar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblMadagascar.Image = ((System.Drawing.Image)(resources.GetObject("lblMadagascar.Image")));
+            this.lblMadagascar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblMadagascar.Location = new System.Drawing.Point(360, 298);
+            this.lblMadagascar.Name = "lblMadagascar";
+            this.lblMadagascar.Size = new System.Drawing.Size(88, 13);
+            this.lblMadagascar.TabIndex = 38;
+            this.lblMadagascar.Text = "      Madagascar";
+            this.lblMadagascar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblTunisia
+            // 
+            this.lblTunisia.AutoSize = true;
+            this.lblTunisia.BackColor = System.Drawing.Color.Transparent;
+            this.lblTunisia.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblTunisia.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTunisia.Image = ((System.Drawing.Image)(resources.GetObject("lblTunisia.Image")));
+            this.lblTunisia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTunisia.Location = new System.Drawing.Point(282, 239);
+            this.lblTunisia.Name = "lblTunisia";
+            this.lblTunisia.Size = new System.Drawing.Size(61, 13);
+            this.lblTunisia.TabIndex = 37;
+            this.lblTunisia.Text = "      Tunísia";
+            this.lblTunisia.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblEllesmere
+            // 
+            this.lblEllesmere.AutoSize = true;
+            this.lblEllesmere.BackColor = System.Drawing.Color.Transparent;
+            this.lblEllesmere.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEllesmere.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblEllesmere.Image = ((System.Drawing.Image)(resources.GetObject("lblEllesmere.Image")));
+            this.lblEllesmere.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblEllesmere.Location = new System.Drawing.Point(142, 45);
+            this.lblEllesmere.Name = "lblEllesmere";
+            this.lblEllesmere.Size = new System.Drawing.Size(96, 13);
+            this.lblEllesmere.TabIndex = 36;
+            this.lblEllesmere.Text = "      Ilha Ellesmere";
+            this.lblEllesmere.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblRussia
+            // 
+            this.lblRussia.AutoSize = true;
+            this.lblRussia.BackColor = System.Drawing.Color.Transparent;
+            this.lblRussia.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblRussia.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblRussia.Image = ((System.Drawing.Image)(resources.GetObject("lblRussia.Image")));
+            this.lblRussia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblRussia.Location = new System.Drawing.Point(390, 162);
+            this.lblRussia.Name = "lblRussia";
+            this.lblRussia.Size = new System.Drawing.Size(58, 13);
+            this.lblRussia.TabIndex = 35;
+            this.lblRussia.Text = "      Rússia";
+            this.lblRussia.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblKazakhstan
+            // 
+            this.lblKazakhstan.AutoSize = true;
+            this.lblKazakhstan.BackColor = System.Drawing.Color.Transparent;
+            this.lblKazakhstan.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblKazakhstan.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblKazakhstan.Image = ((System.Drawing.Image)(resources.GetObject("lblKazakhstan.Image")));
+            this.lblKazakhstan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblKazakhstan.Location = new System.Drawing.Point(386, 183);
+            this.lblKazakhstan.Name = "lblKazakhstan";
+            this.lblKazakhstan.Size = new System.Drawing.Size(91, 13);
+            this.lblKazakhstan.TabIndex = 34;
+            this.lblKazakhstan.Text = "       Cazaquistão";
+            this.lblKazakhstan.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblDemocraticRepublic
+            // 
+            this.lblDemocraticRepublic.AutoSize = true;
+            this.lblDemocraticRepublic.BackColor = System.Drawing.Color.Transparent;
+            this.lblDemocraticRepublic.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblDemocraticRepublic.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblDemocraticRepublic.Image = ((System.Drawing.Image)(resources.GetObject("lblDemocraticRepublic.Image")));
+            this.lblDemocraticRepublic.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblDemocraticRepublic.Location = new System.Drawing.Point(304, 272);
+            this.lblDemocraticRepublic.Name = "lblDemocraticRepublic";
+            this.lblDemocraticRepublic.Size = new System.Drawing.Size(140, 13);
+            this.lblDemocraticRepublic.TabIndex = 33;
+            this.lblDemocraticRepublic.Text = "     República Democrática";
+            this.lblDemocraticRepublic.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // timer1
             // 
@@ -485,57 +485,57 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label3
+            // lblNorway
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Image = ((System.Drawing.Image)(resources.GetObject("label3.Image")));
-            this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label3.Location = new System.Drawing.Point(291, 162);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 13);
-            this.label3.TabIndex = 62;
-            this.label3.Text = "     Noruega";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblNorway.AutoSize = true;
+            this.lblNorway.BackColor = System.Drawing.Color.Transparent;
+            this.lblNorway.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblNorway.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblNorway.Image = ((System.Drawing.Image)(resources.GetObject("lblNorway.Image")));
+            this.lblNorway.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblNorway.Location = new System.Drawing.Point(291, 162);
+            this.lblNorway.Name = "lblNorway";
+            this.lblNorway.Size = new System.Drawing.Size(68, 13);
+            this.lblNorway.TabIndex = 62;
+            this.lblNorway.Text = "     Noruega";
+            this.lblNorway.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::RelogioMundial.Properties.Resources.Captura_de_tela_2024_02_27_141951;
-            this.ClientSize = new System.Drawing.Size(627, 393);
-            this.Controls.Add(this.label3);
+            this.ClientSize = new System.Drawing.Size(650, 393);
+            this.Controls.Add(this.lblNorway);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.lblBaker);
-            this.Controls.Add(this.lblMiller);
-            this.Controls.Add(this.lblPaopao);
-            this.Controls.Add(this.lblSuva);
-            this.Controls.Add(this.lblMagadan);
-            this.Controls.Add(this.lblAcra);
-            this.Controls.Add(this.lblLosAngeles);
-            this.Controls.Add(this.lblDawson);
-            this.Controls.Add(this.lblLima);
-            this.Controls.Add(this.lblNuuk);
-            this.Controls.Add(this.lblItto);
-            this.Controls.Add(this.lblSydney);
-            this.Controls.Add(this.lblTokyo);
-            this.Controls.Add(this.lblTaipe);
-            this.Controls.Add(this.lblBangkok);
-            this.Controls.Add(this.lblAstana);
-            this.Controls.Add(this.lblMale);
-            this.Controls.Add(this.lblMascate);
-            this.Controls.Add(this.lblIstambul);
-            this.Controls.Add(this.lblCabo);
-            this.Controls.Add(this.lblManaus);
-            this.Controls.Add(this.lblAnchorage);
+            this.Controls.Add(this.lblIceland);
+            this.Controls.Add(this.lblYakutsk);
+            this.Controls.Add(this.lblUs);
+            this.Controls.Add(this.lblNewZealand);
+            this.Controls.Add(this.lblCanada);
+            this.Controls.Add(this.lblUk);
+            this.Controls.Add(this.lblNunavut);
+            this.Controls.Add(this.lblGreenland);
+            this.Controls.Add(this.lblBrazil);
+            this.Controls.Add(this.lblSweden);
+            this.Controls.Add(this.lblSvalbard);
+            this.Controls.Add(this.lblArgentina);
+            this.Controls.Add(this.lblAustralia);
+            this.Controls.Add(this.lblMalaysia);
+            this.Controls.Add(this.lblKopi);
             this.Controls.Add(this.lblMexico);
-            this.Controls.Add(this.lblParis);
-            this.Controls.Add(this.lblSaoPaulo);
+            this.Controls.Add(this.lblVietnam);
+            this.Controls.Add(this.lblChina);
+            this.Controls.Add(this.lblMongolia);
+            this.Controls.Add(this.lblMadagascar);
+            this.Controls.Add(this.lblTunisia);
+            this.Controls.Add(this.lblEllesmere);
+            this.Controls.Add(this.lblRussia);
+            this.Controls.Add(this.lblKazakhstan);
+            this.Controls.Add(this.lblDemocraticRepublic);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
@@ -547,37 +547,37 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblBaker;
-        private System.Windows.Forms.Label lblMiller;
-        private System.Windows.Forms.Label lblPaopao;
-        private System.Windows.Forms.Label lblSuva;
-        private System.Windows.Forms.Label lblMagadan;
-        private System.Windows.Forms.Label lblAcra;
-        private System.Windows.Forms.Label lblLosAngeles;
-        private System.Windows.Forms.Label lblDawson;
-        private System.Windows.Forms.Label lblLima;
-        private System.Windows.Forms.Label lblNuuk;
-        private System.Windows.Forms.Label lblItto;
-        private System.Windows.Forms.Label lblSydney;
-        private System.Windows.Forms.Label lblTokyo;
-        private System.Windows.Forms.Label lblTaipe;
-        private System.Windows.Forms.Label lblBangkok;
-        private System.Windows.Forms.Label lblAstana;
-        private System.Windows.Forms.Label lblMale;
-        private System.Windows.Forms.Label lblMascate;
-        private System.Windows.Forms.Label lblIstambul;
-        private System.Windows.Forms.Label lblCabo;
-        private System.Windows.Forms.Label lblManaus;
-        private System.Windows.Forms.Label lblAnchorage;
+        private System.Windows.Forms.Label lblIceland;
+        private System.Windows.Forms.Label lblYakutsk;
+        private System.Windows.Forms.Label lblUs;
+        private System.Windows.Forms.Label lblNewZealand;
+        private System.Windows.Forms.Label lblCanada;
+        private System.Windows.Forms.Label lblUk;
+        private System.Windows.Forms.Label lblNunavut;
+        private System.Windows.Forms.Label lblGreenland;
+        private System.Windows.Forms.Label lblBrazil;
+        private System.Windows.Forms.Label lblSweden;
+        private System.Windows.Forms.Label lblSvalbard;
+        private System.Windows.Forms.Label lblArgentina;
+        private System.Windows.Forms.Label lblAustralia;
+        private System.Windows.Forms.Label lblMalaysia;
+        private System.Windows.Forms.Label lblKopi;
         private System.Windows.Forms.Label lblMexico;
-        private System.Windows.Forms.Label lblParis;
-        private System.Windows.Forms.Label lblSaoPaulo;
+        private System.Windows.Forms.Label lblVietnam;
+        private System.Windows.Forms.Label lblChina;
+        private System.Windows.Forms.Label lblMongolia;
+        private System.Windows.Forms.Label lblMadagascar;
+        private System.Windows.Forms.Label lblTunisia;
+        private System.Windows.Forms.Label lblEllesmere;
+        private System.Windows.Forms.Label lblRussia;
+        private System.Windows.Forms.Label lblKazakhstan;
+        private System.Windows.Forms.Label lblDemocraticRepublic;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblNorway;
     }
 }
 

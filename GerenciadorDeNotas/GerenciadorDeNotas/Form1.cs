@@ -199,6 +199,27 @@ namespace GerenciadorDeNotas
 
                 // Desabilita a edição no richTextBoxConteudo
                 richTextBoxConteudo.ReadOnly = true;
+            }// Verifica se um item está selecionado
+            if (listBoxNotas.SelectedItem != null)
+            {
+                // Acessa o item do ListBox
+                ListBoxItem itemSelecionado = (ListBoxItem)listBoxNotas.SelectedItem;
+
+                // Acessa a nota completa associada ao item selecionado
+                Nota notaSelecionada = itemSelecionado.NotaCompleta;
+
+                // Salva o conteúdo editado no richTextBoxConteudo na nota selecionada
+                notaSelecionada.Conteudo = richTextBoxConteudo.Text;
+
+                // Atualiza o título da nota tanto no objeto Nota quanto no item do ListBox
+                notaSelecionada.Titulo = textBoxTituloEdicao.Text;
+                itemSelecionado.Titulo = textBoxTituloEdicao.Text;
+
+                // Atualiza o texto do item selecionado no ListBox para refletir as alterações
+                listBoxNotas.Items[listBoxNotas.SelectedIndex] = itemSelecionado;
+
+                // Desabilita a edição no richTextBoxConteudo
+                richTextBoxConteudo.ReadOnly = true;
             }
         }
     }
