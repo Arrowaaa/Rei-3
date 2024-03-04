@@ -18,3 +18,13 @@ C:\Users\mad_f\Source\Repos\Rei-3\RelogioMundial\RelogioMundial\obj\Debug\Relogi
 C:\Users\mad_f\Source\Repos\Rei-3\RelogioMundial\RelogioMundial\obj\Debug\RelogioMundial.csproj.CoreCompileInputs.cache
 C:\Users\mad_f\Source\Repos\Rei-3\RelogioMundial\RelogioMundial\obj\Debug\RelogioMundial.exe
 C:\Users\mad_f\Source\Repos\Rei-3\RelogioMundial\RelogioMundial\obj\Debug\RelogioMundial.pdb
+C:\Users\edilson.csilva10\Source\Repos\Rei-3\RelogioMundial\RelogioMundial\bin\Debug\RelogioMundial.exe.config
+C:\Users\edilson.csilva10\Source\Repos\Rei-3\RelogioMundial\RelogioMundial\bin\Debug\RelogioMundial.exe
+C:\Users\edilson.csilva10\Source\Repos\Rei-3\RelogioMundial\RelogioMundial\bin\Debug\RelogioMundial.pdb
+C:\Users\edilson.csilva10\Source\Repos\Rei-3\RelogioMundial\RelogioMundial\obj\Debug\RelogioMundial.csproj.AssemblyReference.cache
+C:\Users\edilson.csilva10\Source\Repos\Rei-3\RelogioMundial\RelogioMundial\obj\Debug\RelogioMundial.Form1.resources
+C:\Users\edilson.csilva10\Source\Repos\Rei-3\RelogioMundial\RelogioMundial\obj\Debug\RelogioMundial.Properties.Resources.resources
+C:\Users\edilson.csilva10\Source\Repos\Rei-3\RelogioMundial\RelogioMundial\obj\Debug\RelogioMundial.csproj.GenerateResource.cache
+C:\Users\edilson.csilva10\Source\Repos\Rei-3\RelogioMundial\RelogioMundial\obj\Debug\RelogioMundial.csproj.CoreCompileInputs.cache
+C:\Users\edilson.csilva10\Source\Repos\Rei-3\RelogioMundial\RelogioMundial\obj\Debug\RelogioMundial.exe
+C:\Users\edilson.csilva10\Source\Repos\Rei-3\RelogioMundial\RelogioMundial\obj\Debug\RelogioMundial.pdb

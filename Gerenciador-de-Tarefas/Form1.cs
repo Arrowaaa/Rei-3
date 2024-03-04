@@ -1,5 +1,4 @@
 ﻿using System;
-using MySql.Data.MySqlClient;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,7 +13,7 @@ namespace Gerenciador_de_Tarefas
 {
     public partial class Form1 : Form
     {
-        private readonly string conexaoString = "server=62.72.62.1;user=u687609827_alunos;database=u687609827_TI21;port=3306;password=@Aluno12345";
+        string conexaoString = "server=62.72.62.1;user=u687609827_alunos;database=u687609827_TI21;port=3306;password=@Aluno12345";
 
         public Form1()
         {
@@ -63,10 +62,11 @@ namespace Gerenciador_de_Tarefas
         private void CarregarDados()
         {
             dgvTarefas.Rows.Clear();
+            string conexaoString = "server=62.72.62.1;user=u687609827_alunos;database=u687609827_TI21;port=3306;password=@Aluno12345";
 
             using (MySqlConnection conexao = new MySqlConnection(conexaoString))
             {
-                string scriptSQL = "SELECT * FROM tb";
+                string scriptSQL = "SELECT * FROM tb_tarefa";
                 using (MySqlCommand comando = new MySqlCommand(scriptSQL, conexao))
                 {
                     try
@@ -76,7 +76,7 @@ namespace Gerenciador_de_Tarefas
                         {
                             while (Ler.Read())
                             {
-                                dgvTarefas.Rows.Add(Ler.GetInt32("ID"), Ler.GetString("Tarefa"), Ler.GetString("Descrição"), Ler.GetDateTime("Vencimento").ToString("Ano-Mes-Dia));
+                                dgvTarefas.Rows.Add(Ler.GetInt32("ID"), Ler.GetString("Tarefa"), Ler.GetString("Descrição"), Ler.GetDateTime("Vencimento").ToString("Ano-Mes-Dia"));
                             }
                         }
                     }
@@ -98,13 +98,13 @@ namespace Gerenciador_de_Tarefas
         {
             string tarefa = txbTarefa.Text;
             string desc = txbDesc.Text;
-            string venc = dtpVencimento.Value.ToString("Ano-Mes-Dia);
+            string venc = dtpVencimento.Value.ToString("Ano-Mes-Dia");
 
             try
             {
                 using (MySqlConnection conexao = new MySqlConnection(conexaoString))
                 {
-                    string scriptSQL = "INSERT INTO tb (Tarefa, Descrição, Vencimento) VALUES (@Tarefa, @Descrição, @Vencimento)";
+                    string scriptSQL = "INSERT INTO tb_tarefa (Tarefa, Descrição, Vencimento) VALUES (@Tarefa, @Descrição, @Vencimento)";
                     using (MySqlCommand comando = new MySqlCommand(scriptSQL, conexao))
                     {
                         comando.Parameters.AddWithValue("@Tarefa", tarefa);
@@ -142,7 +142,7 @@ namespace Gerenciador_de_Tarefas
                     {
                         using (MySqlConnection conexao = new MySqlConnection(conexaoString))
                         {
-                            string scriptSQL = "DELETE FROM tb WHERE ID = @ID";
+                            string scriptSQL = "DELETE FROM tb_tarefa WHERE ID = @ID";
                             using (MySqlCommand comando = new MySqlCommand(scriptSQL, conexao))
                             {
                                 comando.Parameters.AddWithValue("@ID", id);
@@ -181,7 +181,7 @@ namespace Gerenciador_de_Tarefas
                             string novaDesc = row.Cells["Descrição"].Value.ToString();
                             string novoVencimento = ((DateTime)row.Cells["Vencimento"].Value).ToString("Ano-Mes-Dia");
 
-                            string scriptSQL = "UPDATE tb SET Tarefa = @Tarefa, Descrição = @Descrição, Vencimento = @Vencimento WHERE ID = @ID";
+                            string scriptSQL = "UPDATE tb_tarefa SET Tarefa = @Tarefa, Descrição = @Descrição, Vencimento = @Vencimento WHERE ID = @ID";
                             using (MySqlCommand comando = new MySqlCommand(scriptSQL, conexao))
                             {
                                 comando.Parameters.AddWithValue("@Tarefa", novaTarefa);

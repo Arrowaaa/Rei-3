@@ -4,6 +4,11 @@ namespace Gerenciador_de_Tarefas
 {
     internal class MySqlDataReader
     {
+        internal object GetDateTime(string v)
+        {
+            throw new NotImplementedException();
+        }
+
         internal int GetInt32(int v)
         {
             throw new NotImplementedException();
