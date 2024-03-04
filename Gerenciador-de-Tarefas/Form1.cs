@@ -70,15 +70,15 @@ namespace Gerenciador_de_Tarefas
                 {
                     conexao.Open();
 
-                    using (MySqlDataReader leitor = comando.ExecuteReader())
+                    using (MySqlDataReader Ler = comando.ExecuteReader())
                     {
-                        while (leitor.Read())
+                        while (Ler.Read())
                         {
 
-                            int id = leitor.GetInt32(0);
-                            string tarefa = leitor.GetString(1);
-                            string descricao = leitor.GetString(2);
-                            string vencimento = leitor.GetString(3);
+                            int id = Ler.GetInt32(0);
+                            string tarefa = Ler.GetString(1);
+                            string descricao = Ler.GetString(2);
+                            string vencimento = Ler.GetString(3);
 
 
                             dgvTarefas.Rows.Add(id, tarefa, descricao, vencimento);
