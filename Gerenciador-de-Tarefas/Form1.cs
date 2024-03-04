@@ -1,4 +1,6 @@
 ﻿using System;
+using MySqlConnector;
+using MySql;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
