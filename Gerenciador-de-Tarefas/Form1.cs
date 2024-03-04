@@ -14,9 +14,13 @@ namespace Gerenciador_de_Tarefas
 {
     public partial class Form1 : Form
     {
+        private readonly string conexaoString = "server=62.72.62.1;user=u687609827_alunos;database=u687609827_TI21;port=3306;password=@Aluno12345";
+
         public Form1()
         {
             InitializeComponent();
+            ConfigurarDataGridView();
+            CarregarDados();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -46,51 +50,41 @@ namespace Gerenciador_de_Tarefas
             dgvTarefas.Columns["Vencimento"].Width = 70;
             dgvTarefas.Columns["Ações"].Width = 50;
 
+
         }
 
         private void LimparCampos()
         {
-
             txbTarefa.Text = string.Empty;
             txbDesc.Text = string.Empty;
-
+            dtpVencimento.Value = DateTime.Today;
         }
 
         private void CarregarDados()
         {
-
             dgvTarefas.Rows.Clear();
 
-            string conexaoString = "server=62.72.62.1;user=u687609827_alunos;database=u687609827_TI21;port=3306;password=@Aluno12345";
             using (MySqlConnection conexao = new MySqlConnection(conexaoString))
             {
-
-                string scriptSQL = "SELECT * FROM tb_erick_gerenciador";
+                string scriptSQL = "SELECT * FROM tb";
                 using (MySqlCommand comando = new MySqlCommand(scriptSQL, conexao))
                 {
-                    conexao.Open();
-
-                    using (MySqlDataReader Ler = comando.ExecuteReader())
+                    try
                     {
-                        while (Ler.Read())
+                        conexao.Open();
+                        using (MySqlDataReader Ler = comando.ExecuteReader())
                         {
-
-                            int id = Ler.GetInt32(0);
-                            string tarefa = Ler.GetString(1);
-                            string descricao = Ler.GetString(2);
-                            string vencimento = Ler.GetString(3);
-
-
-                            dgvTarefas.Rows.Add(id, tarefa, descricao, vencimento);
-
-
+                            while (Ler.Read())
+                            {
+                                dgvTarefas.Rows.Add(Ler.GetInt32("ID"), Ler.GetString("Tarefa"), Ler.GetString("Descrição"), Ler.GetDateTime("Vencimento").ToString("Ano-Mes-Dia));
+                            }
                         }
                     }
-
-                    conexao.Close();
-
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Erro ao carregar dados: " + ex.Message);
+                    }
                 }
-
             }
 
         }
@@ -102,43 +96,35 @@ namespace Gerenciador_de_Tarefas
 
         private void btnAdicionarTarefa_Click(object sender, EventArgs e)
         {
-            string conexaoString = "server=62.72.62.1;user=u687609827_alunos;database=u687609827_TI21;port=3306;password=@Aluno12345";
-
             string tarefa = txbTarefa.Text;
             string desc = txbDesc.Text;
-            string venc = dtpVencimento.Text;
+            string venc = dtpVencimento.Value.ToString("Ano-Mes-Dia);
 
             try
             {
                 using (MySqlConnection conexao = new MySqlConnection(conexaoString))
                 {
-
-                    string scriptSQL = $"INSERT INTO tb_erick_gerenciador (tarefa, descricao, vencimento) VALUES ('{tarefa}','{desc}','{venc}')";
-
+                    string scriptSQL = "INSERT INTO tb (Tarefa, Descrição, Vencimento) VALUES (@Tarefa, @Descrição, @Vencimento)";
                     using (MySqlCommand comando = new MySqlCommand(scriptSQL, conexao))
                     {
+                        comando.Parameters.AddWithValue("@Tarefa", tarefa);
+                        comando.Parameters.AddWithValue("@Descrição", desc);
+                        comando.Parameters.AddWithValue("@Vencimento", venc);
 
                         conexao.Open();
-
-                        int linhasAfetadas = comando.ExecuteNonQuery();
-
-                        if (linhasAfetadas > 0)
+                        int Afetadas = comando.ExecuteNonQuery();
+                        if (Afetadas > 0)
                         {
-
-                            MessageBox.Show("Tarefa cadastrar com suesso");
-
+                            MessageBox.Show("Tarefa cadastrada com sucesso");
+                            LimparCampos();
+                            CarregarDados();
                         }
-
                     }
-
-                    conexao.Close();
-
                 }
-
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Erro ao cadastrar informação: " + ex.Message);
+                MessageBox.Show("Erro ao cadastrar tarefa: " + ex.Message);
             }
 
             CarregarDados();
@@ -146,129 +132,79 @@ namespace Gerenciador_de_Tarefas
         }
         private void dgvTarefas_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
             if (e.ColumnIndex == dgvTarefas.Columns["Ações"].Index && e.RowIndex >= 0)
             {
-
-                DialogResult confirmacao = MessageBox.Show("Tem certeza que deseja deletar esta tarefa?", "Confirmar Exclusão", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-                if (confirmacao == DialogResult.Yes)
+                DialogResult result = MessageBox.Show("Tem certeza que deseja deletar esta tarefa ?", "Confirmar Exclusão", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (result == DialogResult.Yes)
                 {
-
-                    string conexaoString = "server=62.72.62.1;user=u687609827_alunos;database=u687609827_TI21;port=3306;password=@Aluno12345";
-
-
-                    string idRemovido = dgvTarefas.Rows[e.RowIndex].Cells[0].Value.ToString();
-
+                    string id = dgvTarefas.Rows[e.RowIndex].Cells["ID"].Value.ToString();
                     try
                     {
                         using (MySqlConnection conexao = new MySqlConnection(conexaoString))
                         {
-
-                            string scriptSQL = $"DELETE FROM tb_erick_gerenciador WHERE id = ({idRemovido})";
-
+                            string scriptSQL = "DELETE FROM tb WHERE ID = @ID";
                             using (MySqlCommand comando = new MySqlCommand(scriptSQL, conexao))
                             {
-
+                                comando.Parameters.AddWithValue("@ID", id);
                                 conexao.Open();
-
-
-                                int linhasAfetadas = comando.ExecuteNonQuery();
-
-                                if (linhasAfetadas > 0)
+                                int Afetadas = comando.ExecuteNonQuery();
+                                if (Afetadas > 0)
                                 {
-
-                                    MessageBox.Show("Tarefa removida com suesso");
-
+                                    MessageBox.Show("Tarefa removida com sucesso");
+                                    CarregarDados();
                                 }
-
                             }
-
-                            conexao.Close();
-
-                            CarregarDados();
-
                         }
-
                     }
                     catch (Exception ex)
                     {
-
-                        MessageBox.Show("Erro ao Deletar informação: " + ex.Message);
-
+                        MessageBox.Show("Erro ao deletar tarefa: " + ex.Message);
                     }
-
                 }
-
             }
-
         }
 
         private void btnAtualizar_Click(object sender, EventArgs e)
         {
-            DialogResult confirmacao = MessageBox.Show("Tem certeza que deseja Atualizar esta tarefa?", "Confirmar Exclusão", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-            if (confirmacao == DialogResult.Yes)
+            DialogResult result = MessageBox.Show("Tem certeza que deseja atualizar estas tarefas?", "Confirmar Atualização", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
             {
-
-                string conexaoString = "server=62.72.62.1;user=u687609827_alunos;database=u687609827_TI21;port=3306;password=@Aluno12345";
-
-                for (int i = 0; i < dgvTarefas.Rows.Count; i++)
+                try
                 {
-
-                    string idOriginal = dgvTarefas.Rows[i].Cells[0].Value.ToString();
-
-                    string novaTarefa = dgvTarefas.Rows[i].Cells[1].Value.ToString();
-                    string novaDesc = dgvTarefas.Rows[i].Cells[2].Value.ToString();
-                    string novoVencimento = dgvTarefas.Rows[i].Cells[3].Value.ToString();
-
-                    //MessageBox.Show($"{idOriginal}\n{novaTarefa}\n{novaDesc}\n{novoVencimento} ");
-
-                    try
+                    using (MySqlConnection conexao = new MySqlConnection(conexaoString))
                     {
-                        using (MySqlConnection conexao = new MySqlConnection(conexaoString))
+                        conexao.Open();
+                        foreach (DataGridViewRow row in dgvTarefas.Rows)
                         {
+                            string id = row.Cells["ID"].Value.ToString();
+                            string novaTarefa = row.Cells["Tarefa"].Value.ToString();
+                            string novaDesc = row.Cells["Descrição"].Value.ToString();
+                            string novoVencimento = ((DateTime)row.Cells["Vencimento"].Value).ToString("Ano-Mes-Dia");
 
-                            string scriptSQL = $"UPDATE tb_erick_gerenciador SET Tarefa = ('{novaTarefa}') WHERE id = ({idOriginal});" +
-                                $"UPDATE tb_erick_gerenciador SET descricao = ('{novaDesc}') WHERE id = ({idOriginal});" +
-                                $"UPDATE tb_erick_gerenciador SET vencimento = ('{novoVencimento}') WHERE id = ({idOriginal}); ";
-
+                            string scriptSQL = "UPDATE tb SET Tarefa = @Tarefa, Descrição = @Descrição, Vencimento = @Vencimento WHERE ID = @ID";
                             using (MySqlCommand comando = new MySqlCommand(scriptSQL, conexao))
                             {
+                                comando.Parameters.AddWithValue("@Tarefa", novaTarefa);
+                                comando.Parameters.AddWithValue("@Descrição", novaDesc);
+                                comando.Parameters.AddWithValue("@Vencimento", novoVencimento);
+                                comando.Parameters.AddWithValue("@ID", id);
 
-                                conexao.Open();
-
-
-                                int linhasAfetadas = comando.ExecuteNonQuery();
-
-                                if (linhasAfetadas > 0)
+                                int Afetadas = comando.ExecuteNonQuery();
+                                if (Afetadas > 0)
                                 {
-
-                                    MessageBox.Show("Tarefa alterada com suesso");
-
+                                    MessageBox.Show("Tarefa atualizada com sucesso");
                                 }
-
                             }
-
-                            conexao.Close();
-
-
                         }
-
                     }
-
-                    catch (Exception ex)
-                    {
-
-                        MessageBox.Show("Erro ao Atualizar informação: " + ex.Message);
-
-                    }
-
+                    CarregarDados();
                 }
-
-                CarregarDados();
-
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Erro ao atualizar tarefas: " + ex.Message);
+                }
             }
-        }
+
+        }   
     }
 }
