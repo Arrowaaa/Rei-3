@@ -15,9 +15,6 @@ namespace qrcode
 {
     public partial class Form1 : Form
     {
-        QRCodeGenerator qrCodeGenerator = new QRCodeGenerator();
-        private object picQRcode;
-
         public Form1()
         {
             InitializeComponent();
