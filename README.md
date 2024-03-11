@@ -1,15 +1,10 @@
 # REI 3 
 > **Lista de exercício para testar nossas habilidades e conhecimentos, ultilizando Windows Form.** :shipit:
  
-> <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-</picture>
+![Rei 3](https://raw.githubusercontent.com/Arrowaaa/Rei-3/main/10761.jpg)
 
-## Objetivo :shipit:
+  
 
-**O projeto foi desenvolvido como _desafio_ para a turma de TI21, onde o objetivo era os seguintes:**
 ## Tecnologias Utilizadas:
 <table>
   <tr>
@@ -23,6 +18,10 @@
    <td>8.2.12</td>
   </tr>
 </table>
+
+## Objetivo :shipit:
+
+**O projeto foi desenvolvido como _desafio_ para a turma de TI21, onde o objetivo era os seguintes:**
 
 - [x] **Criação de Uma Agenda De Contatos**
   - [x] Função de Adicionar/Editar e Deletar Contatos salvos
