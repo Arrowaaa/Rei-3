@@ -1,12 +1,12 @@
-# REI 3
-> **Lista de exercício para testar nossas habilidades e conhecimentos, ultilizando Windows Form.**
+# REI 3 
+> **Lista de exercício para testar nossas habilidades e conhecimentos, ultilizando Windows Form.** :shipit:
 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
 
 
 
 
-## Objetivo
+## Objetivo :shipit:
 
 **O projeto foi desenvolvido como _desafio_ para a turma de TI21, onde o objetivo era os seguintes:**
 
@@ -40,6 +40,12 @@
 
           
 ### Sub Subtitulo
+
+   ***Ferramentas e objetivos ultilizado no projeto*** :shipit:
+-  *Radio buttons*
+-  *Labels*
+
+- 
 ` Código `
 <details>
   
