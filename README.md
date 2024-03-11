@@ -10,7 +10,7 @@
 ## Objetivo :shipit:
 
 **O projeto foi desenvolvido como _desafio_ para a turma de TI21, onde o objetivo era os seguintes:**
-
+## Tecnologias Utilizadas:
 <table>
   <tr>
     <td>PHP</td>
