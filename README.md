@@ -24,7 +24,8 @@
   - [x] Função para prazos da tarefa      
 
 - [x] **Gerenciador de Notas**
-  - [x] Função de Adicionar/Editar e Deletar, além das funções Negrito/Itálico/Sublinhado no gerenciador de notas 
+  - [x] Função de Adicionar/Editar e Deletar, além das funções Negrito/Itálico/Sublinhado no gerenciador de notas
+  - [x] 
   - [x] Função para pesquisar e exibir a lista de notas salvas
      
 - [x] **Previsão Do Tempo**
@@ -44,6 +45,12 @@
    ***Ferramentas e objetivos ultilizado no projeto*** :shipit:
 -  *Radio buttons*
 -  *Labels*
+-  *TextBoxs*
+-  *ListViews*
+-  *ComboBoxs*
+-  *Buttons*
+-  *dateTimePicker*
+-  *pictureBox*
 
   
 ` Código `
