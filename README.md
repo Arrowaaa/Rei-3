@@ -25,7 +25,7 @@
 
 - [x] **Gerenciador de Notas**
   - [x] Função de Adicionar/Editar e Deletar, além das funções Negrito/Itálico/Sublinhado no gerenciador de notas
-  - [x] 
+  - [x] conexão com banco de dados
   - [x] Função para pesquisar e exibir a lista de notas salvas
      
 - [x] **Previsão Do Tempo**
