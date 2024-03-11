@@ -21,6 +21,7 @@
 
 ## Objetivo :shipit:
 
+
 **O projeto foi desenvolvido como _desafio_ para a turma de TI21, onde o objetivo era os seguintes:**
 
 - [x] **Criação de Uma Agenda De Contatos**
@@ -88,14 +89,35 @@
         }
     }
   
-<details>
-  <summary>Imagems dos Programas</summary>
- https://github.com/Arrowaaa/Rei-3/commit/d71e473e01b8268dee46424c11e7461ab172eb9a
-
-   
+  
 <details>
 <summary>Link do API ultilizado no exercício de previsão de tempo </summary>
 https://openweathermap.org/api
+
+<details>
+  <summary>Imagens dos Programas</summary>
+
+![Agenda de Contato](https://raw.githubusercontent.com/Arrowaaa/Rei-3/main/Agenda%20de%20Contato.PNG)
+
+![Bloco de notas](https://raw.githubusercontent.com/Arrowaaa/Rei-3/main/Bloco%20de%20notas.PNG)
+
+![Gerenciador de notas](https://raw.githubusercontent.com/Arrowaaa/Rei-3/main/Gerenciador%20de%20notas.PNG)
+
+![Gerenciador de notas](https://raw.githubusercontent.com/Arrowaaa/Rei-3/main/Gerenciador-de-notas.PNG)
+
+![Gerenciador de tarefas](https://raw.githubusercontent.com/Arrowaaa/Rei-3/main/Gerenciador%20de%20tarefas.PNG)
+
+![Previsão do tempo](https://raw.githubusercontent.com/Arrowaaa/Rei-3/main/Previs%C3%A3o%20do%20tempo.PNG)
+
+![Relógio mundial](https://raw.githubusercontent.com/Arrowaaa/Rei-3/main/relogio%20mundial.PNG)
+
+![QRCode](https://raw.githubusercontent.com/Arrowaaa/Rei-3/main/Qrcode.PNG)
+
+
+</details>
+
+
+
 
 
 
