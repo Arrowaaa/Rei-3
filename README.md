@@ -71,7 +71,7 @@
 -  *PictureBox*
 
   
-` Código Links e Imagens `
+` Código Link e Imagens `
 
 <details>
   <summary>Codigo de como Carregar os Arquivos salvos</summary>
