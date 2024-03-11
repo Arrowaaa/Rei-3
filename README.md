@@ -88,14 +88,16 @@
             listViewContatos.Items.Add(item);
         }
     }
+    </details>
   
   
 <details>
 <summary>Link do API ultilizado no exercício de previsão de tempo </summary>
 https://openweathermap.org/api
+</details>
 
 <details>
-  <summary>Imagens dos Programas</summary>
+  <summary>Print da tela do Windows Form dos Programas</summary>
 
 ![Agenda de Contato](https://raw.githubusercontent.com/Arrowaaa/Rei-3/main/Agenda%20de%20Contato.PNG)
 
@@ -112,7 +114,6 @@ https://openweathermap.org/api
 ![Relógio mundial](https://raw.githubusercontent.com/Arrowaaa/Rei-3/main/relogio%20mundial.PNG)
 
 ![QRCode](https://raw.githubusercontent.com/Arrowaaa/Rei-3/main/Qrcode.PNG)
-
 
 </details>
 
