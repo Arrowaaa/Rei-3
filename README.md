@@ -81,7 +81,7 @@
 
    
 <details>
-<summary>Links dos APIs ultilizados no exercício de previsão de tempo </summary>
+<summary>Link do API ultilizado no exercício de previsão de tempo </summary>
 https://openweathermap.org/api
 
 
