@@ -53,8 +53,8 @@
 -  *ListViews*
 -  *ComboBoxs*
 -  *Buttons*
--  *dateTimePicker*
--  *pictureBox*
+-  *DateTimePicker*
+-  *PictureBox*
 
   
 ` Código `
