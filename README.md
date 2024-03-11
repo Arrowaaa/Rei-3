@@ -10,31 +10,35 @@
 
 **O projeto foi desenvolvido como _desafio_ para a turma de TI21, onde o objetivo era os seguintes:**
 
-- [x] **Agenda De Contatos**
+- [x] **Criação de Uma Agenda De Contatos**
   - [x] Função de Adicionar/Editar e Deletar Contatos salvos
   - [x] Função para salvar em txt   
 - [ ] **Retorna imagem do contato**
 
-- [x] **Bloco De Notas**
+- [x] **Crição de Um Bloco De Notas**
   - [x] Função de Adicionar/Editar e Deletar Boco de notas
   - [x] Função para salvar em txt
+- [ ] **Replicar forma fiel de um bloco de notas**
 
-- [x] **Gerenciador de Tarefas**
+- [x] **Criação de Um Gerenciador de Tarefas**
   - [x] Função de Adicionar e Atualizar e Deletar Tarefas salvas
+  - [x] Conexão com banco de dados
   - [x] Função para prazos da tarefa      
 
-- [x] **Gerenciador de Notas**
+- [x] **Criação de um Gerenciador de Notas**
   - [x] Função de Adicionar/Editar e Deletar, além das funções Negrito/Itálico/Sublinhado no gerenciador de notas
-  - [x] conexão com banco de dados
   - [x] Função para pesquisar e exibir a lista de notas salvas
      
-- [x] **Previsão Do Tempo**
+- [x] **Criação de Um programa de Previsão Do Tempo**
   - [x] Função de pesquisar a cidade/estado que deseja saber a previsão
+  - [x] Utilização de API
   - [x] Função para exibir imagem do clima, descrição (temperatura Máx/Min/Umidade)
+- [ ] **Replicar forma fiel de um aplicativo de previsão de tempo**
 
-- [x] **Relogio Mundial**
+- [x] **Criação de Um Relogio Mundial**
   - [x] Função para exibir horas de algums países 
-  - [x] Função para ver a data/hora e local 
+  - [x] Função para ver a data/hora e local
+- [ ] **Sem utilização de API**
      
 - [x] **QR code**
   - [x] Função de Gerar/ Resetar e Sair do Qrcode
