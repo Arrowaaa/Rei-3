@@ -11,6 +11,19 @@
 
 **O projeto foi desenvolvido como _desafio_ para a turma de TI21, onde o objetivo era os seguintes:**
 
+<table>
+  <tr>
+    <td>PHP</td>
+    <td>MySql</td>
+   <td>Xamp</td>
+  </tr>
+  <tr>
+    <td>8.2</td>
+    <td>8.3</td>
+   <td>8.2.12</td>
+  </tr>
+</table>
+
 - [x] **Criação de Uma Agenda De Contatos**
   - [x] Função de Adicionar/Editar e Deletar Contatos salvos
   - [x] Função para salvar em txt   
